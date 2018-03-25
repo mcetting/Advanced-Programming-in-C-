@@ -1,0 +1,2352 @@
+%PDF-1.4
+5 0 obj
+<</Length 6 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(02/21/18)Tj
+-0.659766 -12.8 Td
+(17:42:47)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 513.484 739.2 Tm
+(1)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/14)Tj
+/R12 14 Tf
+-264.57 -2.7 Td
+(colors.cppgen)Tj
+-106.747 18 Td
+($cmps109-wm/Assignments/asg4-oop-opengl/code/)Tj
+ET
+Q
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 70.4 718 Tm
+[(1:)-600(// Data taken from source file /usr/share/X11/rgb.txt)]TJ
+12 TL
+T*[(2:)-600(const unordered_map<string,rgbcolor> color_names = {)]TJ
+T*[(3:)-600(   {"alice-blue"            , rgbcolor \(240, 248, 255\)},)]TJ
+T*[(4:)-600(   {"AliceBlue"             , rgbcolor \(240, 248, 255\)},)]TJ
+T*[(5:)-600(   {"antique-white"         , rgbcolor \(250, 235, 215\)},)]TJ
+T*[(6:)-600(   {"AntiqueWhite"          , rgbcolor \(250, 235, 215\)},)]TJ
+T*[(7:)-600(   {"AntiqueWhite1"         , rgbcolor \(255, 239, 219\)},)]TJ
+T*[(8:)-600(   {"AntiqueWhite2"         , rgbcolor \(238, 223, 204\)},)]TJ
+T*[(9:)-600(   {"AntiqueWhite3"         , rgbcolor \(205, 192, 176\)},)]TJ
+-6.6 -12 Td
+[(10:)-600(   {"AntiqueWhite4"         , rgbcolor \(139, 131, 120\)},)]TJ
+T*[(11:)-600(   {"aqua"                  , rgbcolor \(  0, 255, 255\)},)]TJ
+T*[(12:)-600(   {"aquamarine"            , rgbcolor \(127, 255, 212\)},)]TJ
+T*[(13:)-600(   {"aquamarine1"           , rgbcolor \(127, 255, 212\)},)]TJ
+T*[(14:)-600(   {"aquamarine2"           , rgbcolor \(118, 238, 198\)},)]TJ
+T*[(15:)-600(   {"aquamarine3"           , rgbcolor \(102, 205, 170\)},)]TJ
+T*[(16:)-600(   {"aquamarine4"           , rgbcolor \( 69, 139, 116\)},)]TJ
+T*[(17:)-600(   {"azure"                 , rgbcolor \(240, 255, 255\)},)]TJ
+T*[(18:)-600(   {"azure1"                , rgbcolor \(240, 255, 255\)},)]TJ
+T*[(19:)-600(   {"azure2"                , rgbcolor \(224, 238, 238\)},)]TJ
+T*[(20:)-600(   {"azure3"                , rgbcolor \(193, 205, 205\)},)]TJ
+T*[(21:)-600(   {"azure4"                , rgbcolor \(131, 139, 139\)},)]TJ
+T*[(22:)-600(   {"beige"                 , rgbcolor \(245, 245, 220\)},)]TJ
+T*[(23:)-600(   {"bisque"                , rgbcolor \(255, 228, 196\)},)]TJ
+T*[(24:)-600(   {"bisque1"               , rgbcolor \(255, 228, 196\)},)]TJ
+T*[(25:)-600(   {"bisque2"               , rgbcolor \(238, 213, 183\)},)]TJ
+T*[(26:)-600(   {"bisque3"               , rgbcolor \(205, 183, 158\)},)]TJ
+T*[(27:)-600(   {"bisque4"               , rgbcolor \(139, 125, 107\)},)]TJ
+T*[(28:)-600(   {"black"                 , rgbcolor \(  0,   0,   0\)},)]TJ
+T*[(29:)-600(   {"blanched-almond"       , rgbcolor \(255, 235, 205\)},)]TJ
+T*[(30:)-600(   {"BlanchedAlmond"        , rgbcolor \(255, 235, 205\)},)]TJ
+T*[(31:)-600(   {"blue"                  , rgbcolor \(  0,   0, 255\)},)]TJ
+T*[(32:)-600(   {"blue-violet"           , rgbcolor \(138,  43, 226\)},)]TJ
+T*[(33:)-600(   {"blue1"                 , rgbcolor \(  0,   0, 255\)},)]TJ
+T*[(34:)-600(   {"blue2"                 , rgbcolor \(  0,   0, 238\)},)]TJ
+T*[(35:)-600(   {"blue3"                 , rgbcolor \(  0,   0, 205\)},)]TJ
+T*[(36:)-600(   {"blue4"                 , rgbcolor \(  0,   0, 139\)},)]TJ
+T*[(37:)-600(   {"BlueViolet"            , rgbcolor \(138,  43, 226\)},)]TJ
+T*[(38:)-600(   {"brown"                 , rgbcolor \(165,  42,  42\)},)]TJ
+T*[(39:)-600(   {"brown1"                , rgbcolor \(255,  64,  64\)},)]TJ
+T*[(40:)-600(   {"brown2"                , rgbcolor \(238,  59,  59\)},)]TJ
+T*[(41:)-600(   {"brown3"                , rgbcolor \(205,  51,  51\)},)]TJ
+T*[(42:)-600(   {"brown4"                , rgbcolor \(139,  35,  35\)},)]TJ
+T*[(43:)-600(   {"burlywood"             , rgbcolor \(222, 184, 135\)},)]TJ
+T*[(44:)-600(   {"burlywood1"            , rgbcolor \(255, 211, 155\)},)]TJ
+T*[(45:)-600(   {"burlywood2"            , rgbcolor \(238, 197, 145\)},)]TJ
+T*[(46:)-600(   {"burlywood3"            , rgbcolor \(205, 170, 125\)},)]TJ
+T*[(47:)-600(   {"burlywood4"            , rgbcolor \(139, 115,  85\)},)]TJ
+T*[(48:)-600(   {"cadet-blue"            , rgbcolor \( 95, 158, 160\)},)]TJ
+T*[(49:)-600(   {"CadetBlue"             , rgbcolor \( 95, 158, 160\)},)]TJ
+T*[(50:)-600(   {"CadetBlue1"            , rgbcolor \(152, 245, 255\)},)]TJ
+T*[(51:)-600(   {"CadetBlue2"            , rgbcolor \(142, 229, 238\)},)]TJ
+T*[(52:)-600(   {"CadetBlue3"            , rgbcolor \(122, 197, 205\)},)]TJ
+T*[(53:)-600(   {"CadetBlue4"            , rgbcolor \( 83, 134, 139\)},)]TJ
+T*[(54:)-600(   {"chartreuse"            , rgbcolor \(127, 255,   0\)},)]TJ
+T*[(55:)-600(   {"chartreuse1"           , rgbcolor \(127, 255,   0\)},)]TJ
+T*[(56:)-600(   {"chartreuse2"           , rgbcolor \(118, 238,   0\)},)]TJ
+T*[(57:)-600(   {"chartreuse3"           , rgbcolor \(102, 205,   0\)},)]TJ
+T*[(58:)-600(   {"chartreuse4"           , rgbcolor \( 69, 139,   0\)},)]TJ
+ET
+Q
+Q
+endstream
+endobj
+6 0 obj
+4957
+endobj
+19 0 obj
+<</Length 20 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(02/21/18)Tj
+-0.659766 -12.8 Td
+(17:42:47)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 513.484 739.2 Tm
+(2)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/14)Tj
+/R12 14 Tf
+-264.57 -2.7 Td
+(colors.cppgen)Tj
+-106.747 18 Td
+($cmps109-wm/Assignments/asg4-oop-opengl/code/)Tj
+ET
+Q
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 63.8 718 Tm
+[(59:)-600(   {"chocolate"             , rgbcolor \(210, 105,  30\)},)]TJ
+12 TL
+T*[(60:)-600(   {"chocolate1"            , rgbcolor \(255, 127,  36\)},)]TJ
+T*[(61:)-600(   {"chocolate2"            , rgbcolor \(238, 118,  33\)},)]TJ
+T*[(62:)-600(   {"chocolate3"            , rgbcolor \(205, 102,  29\)},)]TJ
+T*[(63:)-600(   {"chocolate4"            , rgbcolor \(139,  69,  19\)},)]TJ
+T*[(64:)-600(   {"coral"                 , rgbcolor \(255, 127,  80\)},)]TJ
+T*[(65:)-600(   {"coral1"                , rgbcolor \(255, 114,  86\)},)]TJ
+T*[(66:)-600(   {"coral2"                , rgbcolor \(238, 106,  80\)},)]TJ
+T*[(67:)-600(   {"coral3"                , rgbcolor \(205,  91,  69\)},)]TJ
+T*[(68:)-600(   {"coral4"                , rgbcolor \(139,  62,  47\)},)]TJ
+T*[(69:)-600(   {"cornflower-blue"       , rgbcolor \(100, 149, 237\)},)]TJ
+T*[(70:)-600(   {"CornflowerBlue"        , rgbcolor \(100, 149, 237\)},)]TJ
+T*[(71:)-600(   {"cornsilk"              , rgbcolor \(255, 248, 220\)},)]TJ
+T*[(72:)-600(   {"cornsilk1"             , rgbcolor \(255, 248, 220\)},)]TJ
+T*[(73:)-600(   {"cornsilk2"             , rgbcolor \(238, 232, 205\)},)]TJ
+T*[(74:)-600(   {"cornsilk3"             , rgbcolor \(205, 200, 177\)},)]TJ
+T*[(75:)-600(   {"cornsilk4"             , rgbcolor \(139, 136, 120\)},)]TJ
+T*[(76:)-600(   {"crimson"               , rgbcolor \(220,  20,  60\)},)]TJ
+T*[(77:)-600(   {"cyan"                  , rgbcolor \(  0, 255, 255\)},)]TJ
+T*[(78:)-600(   {"cyan1"                 , rgbcolor \(  0, 255, 255\)},)]TJ
+T*[(79:)-600(   {"cyan2"                 , rgbcolor \(  0, 238, 238\)},)]TJ
+T*[(80:)-600(   {"cyan3"                 , rgbcolor \(  0, 205, 205\)},)]TJ
+T*[(81:)-600(   {"cyan4"                 , rgbcolor \(  0, 139, 139\)},)]TJ
+T*[(82:)-600(   {"dark-blue"             , rgbcolor \(  0,   0, 139\)},)]TJ
+T*[(83:)-600(   {"dark-cyan"             , rgbcolor \(  0, 139, 139\)},)]TJ
+T*[(84:)-600(   {"dark-goldenrod"        , rgbcolor \(184, 134,  11\)},)]TJ
+T*[(85:)-600(   {"dark-gray"             , rgbcolor \(169, 169, 169\)},)]TJ
+T*[(86:)-600(   {"dark-green"            , rgbcolor \(  0, 100,   0\)},)]TJ
+T*[(87:)-600(   {"dark-grey"             , rgbcolor \(169, 169, 169\)},)]TJ
+T*[(88:)-600(   {"dark-khaki"            , rgbcolor \(189, 183, 107\)},)]TJ
+T*[(89:)-600(   {"dark-magenta"          , rgbcolor \(139,   0, 139\)},)]TJ
+T*[(90:)-600(   {"dark-olive-green"      , rgbcolor \( 85, 107,  47\)},)]TJ
+T*[(91:)-600(   {"dark-orange"           , rgbcolor \(255, 140,   0\)},)]TJ
+T*[(92:)-600(   {"dark-orchid"           , rgbcolor \(153,  50, 204\)},)]TJ
+T*[(93:)-600(   {"dark-red"              , rgbcolor \(139,   0,   0\)},)]TJ
+T*[(94:)-600(   {"dark-salmon"           , rgbcolor \(233, 150, 122\)},)]TJ
+T*[(95:)-600(   {"dark-sea-green"        , rgbcolor \(143, 188, 143\)},)]TJ
+T*[(96:)-600(   {"dark-slate-blue"       , rgbcolor \( 72,  61, 139\)},)]TJ
+T*[(97:)-600(   {"dark-slate-gray"       , rgbcolor \( 47,  79,  79\)},)]TJ
+T*[(98:)-600(   {"dark-slate-grey"       , rgbcolor \( 47,  79,  79\)},)]TJ
+T*[(99:)-600(   {"dark-turquoise"        , rgbcolor \(  0, 206, 209\)},)]TJ
+-6.6 -12 Td
+[(100:)-600(   {"dark-violet"           , rgbcolor \(148,   0, 211\)},)]TJ
+T*[(101:)-600(   {"DarkBlue"              , rgbcolor \(  0,   0, 139\)},)]TJ
+T*[(102:)-600(   {"DarkCyan"              , rgbcolor \(  0, 139, 139\)},)]TJ
+T*[(103:)-600(   {"DarkGoldenrod"         , rgbcolor \(184, 134,  11\)},)]TJ
+T*[(104:)-600(   {"DarkGoldenrod1"        , rgbcolor \(255, 185,  15\)},)]TJ
+T*[(105:)-600(   {"DarkGoldenrod2"        , rgbcolor \(238, 173,  14\)},)]TJ
+T*[(106:)-600(   {"DarkGoldenrod3"        , rgbcolor \(205, 149,  12\)},)]TJ
+T*[(107:)-600(   {"DarkGoldenrod4"        , rgbcolor \(139, 101,   8\)},)]TJ
+T*[(108:)-600(   {"DarkGray"              , rgbcolor \(169, 169, 169\)},)]TJ
+T*[(109:)-600(   {"DarkGreen"             , rgbcolor \(  0, 100,   0\)},)]TJ
+T*[(110:)-600(   {"DarkGrey"              , rgbcolor \(169, 169, 169\)},)]TJ
+T*[(111:)-600(   {"DarkKhaki"             , rgbcolor \(189, 183, 107\)},)]TJ
+T*[(112:)-600(   {"DarkMagenta"           , rgbcolor \(139,   0, 139\)},)]TJ
+T*[(113:)-600(   {"DarkOliveGreen"        , rgbcolor \( 85, 107,  47\)},)]TJ
+T*[(114:)-600(   {"DarkOliveGreen1"       , rgbcolor \(202, 255, 112\)},)]TJ
+T*[(115:)-600(   {"DarkOliveGreen2"       , rgbcolor \(188, 238, 104\)},)]TJ
+T*[(116:)-600(   {"DarkOliveGreen3"       , rgbcolor \(162, 205,  90\)},)]TJ
+ET
+Q
+Q
+endstream
+endobj
+20 0 obj
+4994
+endobj
+24 0 obj
+<</Length 25 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(02/21/18)Tj
+-0.659766 -12.8 Td
+(17:42:47)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 513.484 739.2 Tm
+(3)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/14)Tj
+/R12 14 Tf
+-264.57 -2.7 Td
+(colors.cppgen)Tj
+-106.747 18 Td
+($cmps109-wm/Assignments/asg4-oop-opengl/code/)Tj
+ET
+Q
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 57.2 718 Tm
+[(117:)-600(   {"DarkOliveGreen4"       , rgbcolor \(110, 139,  61\)},)]TJ
+12 TL
+T*[(118:)-600(   {"DarkOrange"            , rgbcolor \(255, 140,   0\)},)]TJ
+T*[(119:)-600(   {"DarkOrange1"           , rgbcolor \(255, 127,   0\)},)]TJ
+T*[(120:)-600(   {"DarkOrange2"           , rgbcolor \(238, 118,   0\)},)]TJ
+T*[(121:)-600(   {"DarkOrange3"           , rgbcolor \(205, 102,   0\)},)]TJ
+T*[(122:)-600(   {"DarkOrange4"           , rgbcolor \(139,  69,   0\)},)]TJ
+T*[(123:)-600(   {"DarkOrchid"            , rgbcolor \(153,  50, 204\)},)]TJ
+T*[(124:)-600(   {"DarkOrchid1"           , rgbcolor \(191,  62, 255\)},)]TJ
+T*[(125:)-600(   {"DarkOrchid2"           , rgbcolor \(178,  58, 238\)},)]TJ
+T*[(126:)-600(   {"DarkOrchid3"           , rgbcolor \(154,  50, 205\)},)]TJ
+T*[(127:)-600(   {"DarkOrchid4"           , rgbcolor \(104,  34, 139\)},)]TJ
+T*[(128:)-600(   {"DarkRed"               , rgbcolor \(139,   0,   0\)},)]TJ
+T*[(129:)-600(   {"DarkSalmon"            , rgbcolor \(233, 150, 122\)},)]TJ
+T*[(130:)-600(   {"DarkSeaGreen"          , rgbcolor \(143, 188, 143\)},)]TJ
+T*[(131:)-600(   {"DarkSeaGreen1"         , rgbcolor \(193, 255, 193\)},)]TJ
+T*[(132:)-600(   {"DarkSeaGreen2"         , rgbcolor \(180, 238, 180\)},)]TJ
+T*[(133:)-600(   {"DarkSeaGreen3"         , rgbcolor \(155, 205, 155\)},)]TJ
+T*[(134:)-600(   {"DarkSeaGreen4"         , rgbcolor \(105, 139, 105\)},)]TJ
+T*[(135:)-600(   {"DarkSlateBlue"         , rgbcolor \( 72,  61, 139\)},)]TJ
+T*[(136:)-600(   {"DarkSlateGray"         , rgbcolor \( 47,  79,  79\)},)]TJ
+T*[(137:)-600(   {"DarkSlateGray1"        , rgbcolor \(151, 255, 255\)},)]TJ
+T*[(138:)-600(   {"DarkSlateGray2"        , rgbcolor \(141, 238, 238\)},)]TJ
+T*[(139:)-600(   {"DarkSlateGray3"        , rgbcolor \(121, 205, 205\)},)]TJ
+T*[(140:)-600(   {"DarkSlateGray4"        , rgbcolor \( 82, 139, 139\)},)]TJ
+T*[(141:)-600(   {"DarkSlateGrey"         , rgbcolor \( 47,  79,  79\)},)]TJ
+T*[(142:)-600(   {"DarkTurquoise"         , rgbcolor \(  0, 206, 209\)},)]TJ
+T*[(143:)-600(   {"DarkViolet"            , rgbcolor \(148,   0, 211\)},)]TJ
+T*[(144:)-600(   {"deep-pink"             , rgbcolor \(255,  20, 147\)},)]TJ
+T*[(145:)-600(   {"deep-sky-blue"         , rgbcolor \(  0, 191, 255\)},)]TJ
+T*[(146:)-600(   {"DeepPink"              , rgbcolor \(255,  20, 147\)},)]TJ
+T*[(147:)-600(   {"DeepPink1"             , rgbcolor \(255,  20, 147\)},)]TJ
+T*[(148:)-600(   {"DeepPink2"             , rgbcolor \(238,  18, 137\)},)]TJ
+T*[(149:)-600(   {"DeepPink3"             , rgbcolor \(205,  16, 118\)},)]TJ
+T*[(150:)-600(   {"DeepPink4"             , rgbcolor \(139,  10,  80\)},)]TJ
+T*[(151:)-600(   {"DeepSkyBlue"           , rgbcolor \(  0, 191, 255\)},)]TJ
+T*[(152:)-600(   {"DeepSkyBlue1"          , rgbcolor \(  0, 191, 255\)},)]TJ
+T*[(153:)-600(   {"DeepSkyBlue2"          , rgbcolor \(  0, 178, 238\)},)]TJ
+T*[(154:)-600(   {"DeepSkyBlue3"          , rgbcolor \(  0, 154, 205\)},)]TJ
+T*[(155:)-600(   {"DeepSkyBlue4"          , rgbcolor \(  0, 104, 139\)},)]TJ
+T*[(156:)-600(   {"dim-gray"              , rgbcolor \(105, 105, 105\)},)]TJ
+T*[(157:)-600(   {"dim-grey"              , rgbcolor \(105, 105, 105\)},)]TJ
+T*[(158:)-600(   {"DimGray"               , rgbcolor \(105, 105, 105\)},)]TJ
+T*[(159:)-600(   {"DimGrey"               , rgbcolor \(105, 105, 105\)},)]TJ
+T*[(160:)-600(   {"dodger-blue"           , rgbcolor \( 30, 144, 255\)},)]TJ
+T*[(161:)-600(   {"DodgerBlue"            , rgbcolor \( 30, 144, 255\)},)]TJ
+T*[(162:)-600(   {"DodgerBlue1"           , rgbcolor \( 30, 144, 255\)},)]TJ
+T*[(163:)-600(   {"DodgerBlue2"           , rgbcolor \( 28, 134, 238\)},)]TJ
+T*[(164:)-600(   {"DodgerBlue3"           , rgbcolor \( 24, 116, 205\)},)]TJ
+T*[(165:)-600(   {"DodgerBlue4"           , rgbcolor \( 16,  78, 139\)},)]TJ
+T*[(166:)-600(   {"firebrick"             , rgbcolor \(178,  34,  34\)},)]TJ
+T*[(167:)-600(   {"firebrick1"            , rgbcolor \(255,  48,  48\)},)]TJ
+T*[(168:)-600(   {"firebrick2"            , rgbcolor \(238,  44,  44\)},)]TJ
+T*[(169:)-600(   {"firebrick3"            , rgbcolor \(205,  38,  38\)},)]TJ
+T*[(170:)-600(   {"firebrick4"            , rgbcolor \(139,  26,  26\)},)]TJ
+T*[(171:)-600(   {"floral-white"          , rgbcolor \(255, 250, 240\)},)]TJ
+T*[(172:)-600(   {"FloralWhite"           , rgbcolor \(255, 250, 240\)},)]TJ
+T*[(173:)-600(   {"forest-green"          , rgbcolor \( 34, 139,  34\)},)]TJ
+T*[(174:)-600(   {"ForestGreen"           , rgbcolor \( 34, 139,  34\)},)]TJ
+ET
+Q
+Q
+endstream
+endobj
+25 0 obj
+5025
+endobj
+29 0 obj
+<</Length 30 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(02/21/18)Tj
+-0.659766 -12.8 Td
+(17:42:47)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 513.484 739.2 Tm
+(4)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/14)Tj
+/R12 14 Tf
+-264.57 -2.7 Td
+(colors.cppgen)Tj
+-106.747 18 Td
+($cmps109-wm/Assignments/asg4-oop-opengl/code/)Tj
+ET
+Q
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 57.2 718 Tm
+[(175:)-600(   {"fuchsia"               , rgbcolor \(255,   0, 255\)},)]TJ
+12 TL
+T*[(176:)-600(   {"gainsboro"             , rgbcolor \(220, 220, 220\)},)]TJ
+T*[(177:)-600(   {"ghost-white"           , rgbcolor \(248, 248, 255\)},)]TJ
+T*[(178:)-600(   {"GhostWhite"            , rgbcolor \(248, 248, 255\)},)]TJ
+T*[(179:)-600(   {"gold"                  , rgbcolor \(255, 215,   0\)},)]TJ
+T*[(180:)-600(   {"gold1"                 , rgbcolor \(255, 215,   0\)},)]TJ
+T*[(181:)-600(   {"gold2"                 , rgbcolor \(238, 201,   0\)},)]TJ
+T*[(182:)-600(   {"gold3"                 , rgbcolor \(205, 173,   0\)},)]TJ
+T*[(183:)-600(   {"gold4"                 , rgbcolor \(139, 117,   0\)},)]TJ
+T*[(184:)-600(   {"goldenrod"             , rgbcolor \(218, 165,  32\)},)]TJ
+T*[(185:)-600(   {"goldenrod1"            , rgbcolor \(255, 193,  37\)},)]TJ
+T*[(186:)-600(   {"goldenrod2"            , rgbcolor \(238, 180,  34\)},)]TJ
+T*[(187:)-600(   {"goldenrod3"            , rgbcolor \(205, 155,  29\)},)]TJ
+T*[(188:)-600(   {"goldenrod4"            , rgbcolor \(139, 105,  20\)},)]TJ
+T*[(189:)-600(   {"gray"                  , rgbcolor \(190, 190, 190\)},)]TJ
+T*[(190:)-600(   {"gray0"                 , rgbcolor \(  0,   0,   0\)},)]TJ
+T*[(191:)-600(   {"gray1"                 , rgbcolor \(  3,   3,   3\)},)]TJ
+T*[(192:)-600(   {"gray10"                , rgbcolor \( 26,  26,  26\)},)]TJ
+T*[(193:)-600(   {"gray100"               , rgbcolor \(255, 255, 255\)},)]TJ
+T*[(194:)-600(   {"gray11"                , rgbcolor \( 28,  28,  28\)},)]TJ
+T*[(195:)-600(   {"gray12"                , rgbcolor \( 31,  31,  31\)},)]TJ
+T*[(196:)-600(   {"gray13"                , rgbcolor \( 33,  33,  33\)},)]TJ
+T*[(197:)-600(   {"gray14"                , rgbcolor \( 36,  36,  36\)},)]TJ
+T*[(198:)-600(   {"gray15"                , rgbcolor \( 38,  38,  38\)},)]TJ
+T*[(199:)-600(   {"gray16"                , rgbcolor \( 41,  41,  41\)},)]TJ
+T*[(200:)-600(   {"gray17"                , rgbcolor \( 43,  43,  43\)},)]TJ
+T*[(201:)-600(   {"gray18"                , rgbcolor \( 46,  46,  46\)},)]TJ
+T*[(202:)-600(   {"gray19"                , rgbcolor \( 48,  48,  48\)},)]TJ
+T*[(203:)-600(   {"gray2"                 , rgbcolor \(  5,   5,   5\)},)]TJ
+T*[(204:)-600(   {"gray20"                , rgbcolor \( 51,  51,  51\)},)]TJ
+T*[(205:)-600(   {"gray21"                , rgbcolor \( 54,  54,  54\)},)]TJ
+T*[(206:)-600(   {"gray22"                , rgbcolor \( 56,  56,  56\)},)]TJ
+T*[(207:)-600(   {"gray23"                , rgbcolor \( 59,  59,  59\)},)]TJ
+T*[(208:)-600(   {"gray24"                , rgbcolor \( 61,  61,  61\)},)]TJ
+T*[(209:)-600(   {"gray25"                , rgbcolor \( 64,  64,  64\)},)]TJ
+T*[(210:)-600(   {"gray26"                , rgbcolor \( 66,  66,  66\)},)]TJ
+T*[(211:)-600(   {"gray27"                , rgbcolor \( 69,  69,  69\)},)]TJ
+T*[(212:)-600(   {"gray28"                , rgbcolor \( 71,  71,  71\)},)]TJ
+T*[(213:)-600(   {"gray29"                , rgbcolor \( 74,  74,  74\)},)]TJ
+T*[(214:)-600(   {"gray3"                 , rgbcolor \(  8,   8,   8\)},)]TJ
+T*[(215:)-600(   {"gray30"                , rgbcolor \( 77,  77,  77\)},)]TJ
+T*[(216:)-600(   {"gray31"                , rgbcolor \( 79,  79,  79\)},)]TJ
+T*[(217:)-600(   {"gray32"                , rgbcolor \( 82,  82,  82\)},)]TJ
+T*[(218:)-600(   {"gray33"                , rgbcolor \( 84,  84,  84\)},)]TJ
+T*[(219:)-600(   {"gray34"                , rgbcolor \( 87,  87,  87\)},)]TJ
+T*[(220:)-600(   {"gray35"                , rgbcolor \( 89,  89,  89\)},)]TJ
+T*[(221:)-600(   {"gray36"                , rgbcolor \( 92,  92,  92\)},)]TJ
+T*[(222:)-600(   {"gray37"                , rgbcolor \( 94,  94,  94\)},)]TJ
+T*[(223:)-600(   {"gray38"                , rgbcolor \( 97,  97,  97\)},)]TJ
+T*[(224:)-600(   {"gray39"                , rgbcolor \( 99,  99,  99\)},)]TJ
+T*[(225:)-600(   {"gray4"                 , rgbcolor \( 10,  10,  10\)},)]TJ
+T*[(226:)-600(   {"gray40"                , rgbcolor \(102, 102, 102\)},)]TJ
+T*[(227:)-600(   {"gray41"                , rgbcolor \(105, 105, 105\)},)]TJ
+T*[(228:)-600(   {"gray42"                , rgbcolor \(107, 107, 107\)},)]TJ
+T*[(229:)-600(   {"gray43"                , rgbcolor \(110, 110, 110\)},)]TJ
+T*[(230:)-600(   {"gray44"                , rgbcolor \(112, 112, 112\)},)]TJ
+T*[(231:)-600(   {"gray45"                , rgbcolor \(115, 115, 115\)},)]TJ
+T*[(232:)-600(   {"gray46"                , rgbcolor \(117, 117, 117\)},)]TJ
+ET
+Q
+Q
+endstream
+endobj
+30 0 obj
+5025
+endobj
+34 0 obj
+<</Length 35 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(02/21/18)Tj
+-0.659766 -12.8 Td
+(17:42:47)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 513.484 739.2 Tm
+(5)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/14)Tj
+/R12 14 Tf
+-264.57 -2.7 Td
+(colors.cppgen)Tj
+-106.747 18 Td
+($cmps109-wm/Assignments/asg4-oop-opengl/code/)Tj
+ET
+Q
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 57.2 718 Tm
+[(233:)-600(   {"gray47"                , rgbcolor \(120, 120, 120\)},)]TJ
+12 TL
+T*[(234:)-600(   {"gray48"                , rgbcolor \(122, 122, 122\)},)]TJ
+T*[(235:)-600(   {"gray49"                , rgbcolor \(125, 125, 125\)},)]TJ
+T*[(236:)-600(   {"gray5"                 , rgbcolor \( 13,  13,  13\)},)]TJ
+T*[(237:)-600(   {"gray50"                , rgbcolor \(127, 127, 127\)},)]TJ
+T*[(238:)-600(   {"gray51"                , rgbcolor \(130, 130, 130\)},)]TJ
+T*[(239:)-600(   {"gray52"                , rgbcolor \(133, 133, 133\)},)]TJ
+T*[(240:)-600(   {"gray53"                , rgbcolor \(135, 135, 135\)},)]TJ
+T*[(241:)-600(   {"gray54"                , rgbcolor \(138, 138, 138\)},)]TJ
+T*[(242:)-600(   {"gray55"                , rgbcolor \(140, 140, 140\)},)]TJ
+T*[(243:)-600(   {"gray56"                , rgbcolor \(143, 143, 143\)},)]TJ
+T*[(244:)-600(   {"gray57"                , rgbcolor \(145, 145, 145\)},)]TJ
+T*[(245:)-600(   {"gray58"                , rgbcolor \(148, 148, 148\)},)]TJ
+T*[(246:)-600(   {"gray59"                , rgbcolor \(150, 150, 150\)},)]TJ
+T*[(247:)-600(   {"gray6"                 , rgbcolor \( 15,  15,  15\)},)]TJ
+T*[(248:)-600(   {"gray60"                , rgbcolor \(153, 153, 153\)},)]TJ
+T*[(249:)-600(   {"gray61"                , rgbcolor \(156, 156, 156\)},)]TJ
+T*[(250:)-600(   {"gray62"                , rgbcolor \(158, 158, 158\)},)]TJ
+T*[(251:)-600(   {"gray63"                , rgbcolor \(161, 161, 161\)},)]TJ
+T*[(252:)-600(   {"gray64"                , rgbcolor \(163, 163, 163\)},)]TJ
+T*[(253:)-600(   {"gray65"                , rgbcolor \(166, 166, 166\)},)]TJ
+T*[(254:)-600(   {"gray66"                , rgbcolor \(168, 168, 168\)},)]TJ
+T*[(255:)-600(   {"gray67"                , rgbcolor \(171, 171, 171\)},)]TJ
+T*[(256:)-600(   {"gray68"                , rgbcolor \(173, 173, 173\)},)]TJ
+T*[(257:)-600(   {"gray69"                , rgbcolor \(176, 176, 176\)},)]TJ
+T*[(258:)-600(   {"gray7"                 , rgbcolor \( 18,  18,  18\)},)]TJ
+T*[(259:)-600(   {"gray70"                , rgbcolor \(179, 179, 179\)},)]TJ
+T*[(260:)-600(   {"gray71"                , rgbcolor \(181, 181, 181\)},)]TJ
+T*[(261:)-600(   {"gray72"                , rgbcolor \(184, 184, 184\)},)]TJ
+T*[(262:)-600(   {"gray73"                , rgbcolor \(186, 186, 186\)},)]TJ
+T*[(263:)-600(   {"gray74"                , rgbcolor \(189, 189, 189\)},)]TJ
+T*[(264:)-600(   {"gray75"                , rgbcolor \(191, 191, 191\)},)]TJ
+T*[(265:)-600(   {"gray76"                , rgbcolor \(194, 194, 194\)},)]TJ
+T*[(266:)-600(   {"gray77"                , rgbcolor \(196, 196, 196\)},)]TJ
+T*[(267:)-600(   {"gray78"                , rgbcolor \(199, 199, 199\)},)]TJ
+T*[(268:)-600(   {"gray79"                , rgbcolor \(201, 201, 201\)},)]TJ
+T*[(269:)-600(   {"gray8"                 , rgbcolor \( 20,  20,  20\)},)]TJ
+T*[(270:)-600(   {"gray80"                , rgbcolor \(204, 204, 204\)},)]TJ
+T*[(271:)-600(   {"gray81"                , rgbcolor \(207, 207, 207\)},)]TJ
+T*[(272:)-600(   {"gray82"                , rgbcolor \(209, 209, 209\)},)]TJ
+T*[(273:)-600(   {"gray83"                , rgbcolor \(212, 212, 212\)},)]TJ
+T*[(274:)-600(   {"gray84"                , rgbcolor \(214, 214, 214\)},)]TJ
+T*[(275:)-600(   {"gray85"                , rgbcolor \(217, 217, 217\)},)]TJ
+T*[(276:)-600(   {"gray86"                , rgbcolor \(219, 219, 219\)},)]TJ
+T*[(277:)-600(   {"gray87"                , rgbcolor \(222, 222, 222\)},)]TJ
+T*[(278:)-600(   {"gray88"                , rgbcolor \(224, 224, 224\)},)]TJ
+T*[(279:)-600(   {"gray89"                , rgbcolor \(227, 227, 227\)},)]TJ
+T*[(280:)-600(   {"gray9"                 , rgbcolor \( 23,  23,  23\)},)]TJ
+T*[(281:)-600(   {"gray90"                , rgbcolor \(229, 229, 229\)},)]TJ
+T*[(282:)-600(   {"gray91"                , rgbcolor \(232, 232, 232\)},)]TJ
+T*[(283:)-600(   {"gray92"                , rgbcolor \(235, 235, 235\)},)]TJ
+T*[(284:)-600(   {"gray93"                , rgbcolor \(237, 237, 237\)},)]TJ
+T*[(285:)-600(   {"gray94"                , rgbcolor \(240, 240, 240\)},)]TJ
+T*[(286:)-600(   {"gray95"                , rgbcolor \(242, 242, 242\)},)]TJ
+T*[(287:)-600(   {"gray96"                , rgbcolor \(245, 245, 245\)},)]TJ
+T*[(288:)-600(   {"gray97"                , rgbcolor \(247, 247, 247\)},)]TJ
+T*[(289:)-600(   {"gray98"                , rgbcolor \(250, 250, 250\)},)]TJ
+T*[(290:)-600(   {"gray99"                , rgbcolor \(252, 252, 252\)},)]TJ
+ET
+Q
+Q
+endstream
+endobj
+35 0 obj
+5025
+endobj
+39 0 obj
+<</Length 40 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(02/21/18)Tj
+-0.659766 -12.8 Td
+(17:42:47)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 513.484 739.2 Tm
+(6)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/14)Tj
+/R12 14 Tf
+-264.57 -2.7 Td
+(colors.cppgen)Tj
+-106.747 18 Td
+($cmps109-wm/Assignments/asg4-oop-opengl/code/)Tj
+ET
+Q
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 57.2 718 Tm
+[(291:)-600(   {"green"                 , rgbcolor \(  0, 255,   0\)},)]TJ
+12 TL
+T*[(292:)-600(   {"green-yellow"          , rgbcolor \(173, 255,  47\)},)]TJ
+T*[(293:)-600(   {"green1"                , rgbcolor \(  0, 255,   0\)},)]TJ
+T*[(294:)-600(   {"green2"                , rgbcolor \(  0, 238,   0\)},)]TJ
+T*[(295:)-600(   {"green3"                , rgbcolor \(  0, 205,   0\)},)]TJ
+T*[(296:)-600(   {"green4"                , rgbcolor \(  0, 139,   0\)},)]TJ
+T*[(297:)-600(   {"GreenYellow"           , rgbcolor \(173, 255,  47\)},)]TJ
+T*[(298:)-600(   {"grey"                  , rgbcolor \(190, 190, 190\)},)]TJ
+T*[(299:)-600(   {"grey0"                 , rgbcolor \(  0,   0,   0\)},)]TJ
+T*[(300:)-600(   {"grey1"                 , rgbcolor \(  3,   3,   3\)},)]TJ
+T*[(301:)-600(   {"grey10"                , rgbcolor \( 26,  26,  26\)},)]TJ
+T*[(302:)-600(   {"grey100"               , rgbcolor \(255, 255, 255\)},)]TJ
+T*[(303:)-600(   {"grey11"                , rgbcolor \( 28,  28,  28\)},)]TJ
+T*[(304:)-600(   {"grey12"                , rgbcolor \( 31,  31,  31\)},)]TJ
+T*[(305:)-600(   {"grey13"                , rgbcolor \( 33,  33,  33\)},)]TJ
+T*[(306:)-600(   {"grey14"                , rgbcolor \( 36,  36,  36\)},)]TJ
+T*[(307:)-600(   {"grey15"                , rgbcolor \( 38,  38,  38\)},)]TJ
+T*[(308:)-600(   {"grey16"                , rgbcolor \( 41,  41,  41\)},)]TJ
+T*[(309:)-600(   {"grey17"                , rgbcolor \( 43,  43,  43\)},)]TJ
+T*[(310:)-600(   {"grey18"                , rgbcolor \( 46,  46,  46\)},)]TJ
+T*[(311:)-600(   {"grey19"                , rgbcolor \( 48,  48,  48\)},)]TJ
+T*[(312:)-600(   {"grey2"                 , rgbcolor \(  5,   5,   5\)},)]TJ
+T*[(313:)-600(   {"grey20"                , rgbcolor \( 51,  51,  51\)},)]TJ
+T*[(314:)-600(   {"grey21"                , rgbcolor \( 54,  54,  54\)},)]TJ
+T*[(315:)-600(   {"grey22"                , rgbcolor \( 56,  56,  56\)},)]TJ
+T*[(316:)-600(   {"grey23"                , rgbcolor \( 59,  59,  59\)},)]TJ
+T*[(317:)-600(   {"grey24"                , rgbcolor \( 61,  61,  61\)},)]TJ
+T*[(318:)-600(   {"grey25"                , rgbcolor \( 64,  64,  64\)},)]TJ
+T*[(319:)-600(   {"grey26"                , rgbcolor \( 66,  66,  66\)},)]TJ
+T*[(320:)-600(   {"grey27"                , rgbcolor \( 69,  69,  69\)},)]TJ
+T*[(321:)-600(   {"grey28"                , rgbcolor \( 71,  71,  71\)},)]TJ
+T*[(322:)-600(   {"grey29"                , rgbcolor \( 74,  74,  74\)},)]TJ
+T*[(323:)-600(   {"grey3"                 , rgbcolor \(  8,   8,   8\)},)]TJ
+T*[(324:)-600(   {"grey30"                , rgbcolor \( 77,  77,  77\)},)]TJ
+T*[(325:)-600(   {"grey31"                , rgbcolor \( 79,  79,  79\)},)]TJ
+T*[(326:)-600(   {"grey32"                , rgbcolor \( 82,  82,  82\)},)]TJ
+T*[(327:)-600(   {"grey33"                , rgbcolor \( 84,  84,  84\)},)]TJ
+T*[(328:)-600(   {"grey34"                , rgbcolor \( 87,  87,  87\)},)]TJ
+T*[(329:)-600(   {"grey35"                , rgbcolor \( 89,  89,  89\)},)]TJ
+T*[(330:)-600(   {"grey36"                , rgbcolor \( 92,  92,  92\)},)]TJ
+T*[(331:)-600(   {"grey37"                , rgbcolor \( 94,  94,  94\)},)]TJ
+T*[(332:)-600(   {"grey38"                , rgbcolor \( 97,  97,  97\)},)]TJ
+T*[(333:)-600(   {"grey39"                , rgbcolor \( 99,  99,  99\)},)]TJ
+T*[(334:)-600(   {"grey4"                 , rgbcolor \( 10,  10,  10\)},)]TJ
+T*[(335:)-600(   {"grey40"                , rgbcolor \(102, 102, 102\)},)]TJ
+T*[(336:)-600(   {"grey41"                , rgbcolor \(105, 105, 105\)},)]TJ
+T*[(337:)-600(   {"grey42"                , rgbcolor \(107, 107, 107\)},)]TJ
+T*[(338:)-600(   {"grey43"                , rgbcolor \(110, 110, 110\)},)]TJ
+T*[(339:)-600(   {"grey44"                , rgbcolor \(112, 112, 112\)},)]TJ
+T*[(340:)-600(   {"grey45"                , rgbcolor \(115, 115, 115\)},)]TJ
+T*[(341:)-600(   {"grey46"                , rgbcolor \(117, 117, 117\)},)]TJ
+T*[(342:)-600(   {"grey47"                , rgbcolor \(120, 120, 120\)},)]TJ
+T*[(343:)-600(   {"grey48"                , rgbcolor \(122, 122, 122\)},)]TJ
+T*[(344:)-600(   {"grey49"                , rgbcolor \(125, 125, 125\)},)]TJ
+T*[(345:)-600(   {"grey5"                 , rgbcolor \( 13,  13,  13\)},)]TJ
+T*[(346:)-600(   {"grey50"                , rgbcolor \(127, 127, 127\)},)]TJ
+T*[(347:)-600(   {"grey51"                , rgbcolor \(130, 130, 130\)},)]TJ
+T*[(348:)-600(   {"grey52"                , rgbcolor \(133, 133, 133\)},)]TJ
+ET
+Q
+Q
+endstream
+endobj
+40 0 obj
+5025
+endobj
+44 0 obj
+<</Length 45 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(02/21/18)Tj
+-0.659766 -12.8 Td
+(17:42:47)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 513.484 739.2 Tm
+(7)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/14)Tj
+/R12 14 Tf
+-264.57 -2.7 Td
+(colors.cppgen)Tj
+-106.747 18 Td
+($cmps109-wm/Assignments/asg4-oop-opengl/code/)Tj
+ET
+Q
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 57.2 718 Tm
+[(349:)-600(   {"grey53"                , rgbcolor \(135, 135, 135\)},)]TJ
+12 TL
+T*[(350:)-600(   {"grey54"                , rgbcolor \(138, 138, 138\)},)]TJ
+T*[(351:)-600(   {"grey55"                , rgbcolor \(140, 140, 140\)},)]TJ
+T*[(352:)-600(   {"grey56"                , rgbcolor \(143, 143, 143\)},)]TJ
+T*[(353:)-600(   {"grey57"                , rgbcolor \(145, 145, 145\)},)]TJ
+T*[(354:)-600(   {"grey58"                , rgbcolor \(148, 148, 148\)},)]TJ
+T*[(355:)-600(   {"grey59"                , rgbcolor \(150, 150, 150\)},)]TJ
+T*[(356:)-600(   {"grey6"                 , rgbcolor \( 15,  15,  15\)},)]TJ
+T*[(357:)-600(   {"grey60"                , rgbcolor \(153, 153, 153\)},)]TJ
+T*[(358:)-600(   {"grey61"                , rgbcolor \(156, 156, 156\)},)]TJ
+T*[(359:)-600(   {"grey62"                , rgbcolor \(158, 158, 158\)},)]TJ
+T*[(360:)-600(   {"grey63"                , rgbcolor \(161, 161, 161\)},)]TJ
+T*[(361:)-600(   {"grey64"                , rgbcolor \(163, 163, 163\)},)]TJ
+T*[(362:)-600(   {"grey65"                , rgbcolor \(166, 166, 166\)},)]TJ
+T*[(363:)-600(   {"grey66"                , rgbcolor \(168, 168, 168\)},)]TJ
+T*[(364:)-600(   {"grey67"                , rgbcolor \(171, 171, 171\)},)]TJ
+T*[(365:)-600(   {"grey68"                , rgbcolor \(173, 173, 173\)},)]TJ
+T*[(366:)-600(   {"grey69"                , rgbcolor \(176, 176, 176\)},)]TJ
+T*[(367:)-600(   {"grey7"                 , rgbcolor \( 18,  18,  18\)},)]TJ
+T*[(368:)-600(   {"grey70"                , rgbcolor \(179, 179, 179\)},)]TJ
+T*[(369:)-600(   {"grey71"                , rgbcolor \(181, 181, 181\)},)]TJ
+T*[(370:)-600(   {"grey72"                , rgbcolor \(184, 184, 184\)},)]TJ
+T*[(371:)-600(   {"grey73"                , rgbcolor \(186, 186, 186\)},)]TJ
+T*[(372:)-600(   {"grey74"                , rgbcolor \(189, 189, 189\)},)]TJ
+T*[(373:)-600(   {"grey75"                , rgbcolor \(191, 191, 191\)},)]TJ
+T*[(374:)-600(   {"grey76"                , rgbcolor \(194, 194, 194\)},)]TJ
+T*[(375:)-600(   {"grey77"                , rgbcolor \(196, 196, 196\)},)]TJ
+T*[(376:)-600(   {"grey78"                , rgbcolor \(199, 199, 199\)},)]TJ
+T*[(377:)-600(   {"grey79"                , rgbcolor \(201, 201, 201\)},)]TJ
+T*[(378:)-600(   {"grey8"                 , rgbcolor \( 20,  20,  20\)},)]TJ
+T*[(379:)-600(   {"grey80"                , rgbcolor \(204, 204, 204\)},)]TJ
+T*[(380:)-600(   {"grey81"                , rgbcolor \(207, 207, 207\)},)]TJ
+T*[(381:)-600(   {"grey82"                , rgbcolor \(209, 209, 209\)},)]TJ
+T*[(382:)-600(   {"grey83"                , rgbcolor \(212, 212, 212\)},)]TJ
+T*[(383:)-600(   {"grey84"                , rgbcolor \(214, 214, 214\)},)]TJ
+T*[(384:)-600(   {"grey85"                , rgbcolor \(217, 217, 217\)},)]TJ
+T*[(385:)-600(   {"grey86"                , rgbcolor \(219, 219, 219\)},)]TJ
+T*[(386:)-600(   {"grey87"                , rgbcolor \(222, 222, 222\)},)]TJ
+T*[(387:)-600(   {"grey88"                , rgbcolor \(224, 224, 224\)},)]TJ
+T*[(388:)-600(   {"grey89"                , rgbcolor \(227, 227, 227\)},)]TJ
+T*[(389:)-600(   {"grey9"                 , rgbcolor \( 23,  23,  23\)},)]TJ
+T*[(390:)-600(   {"grey90"                , rgbcolor \(229, 229, 229\)},)]TJ
+T*[(391:)-600(   {"grey91"                , rgbcolor \(232, 232, 232\)},)]TJ
+T*[(392:)-600(   {"grey92"                , rgbcolor \(235, 235, 235\)},)]TJ
+T*[(393:)-600(   {"grey93"                , rgbcolor \(237, 237, 237\)},)]TJ
+T*[(394:)-600(   {"grey94"                , rgbcolor \(240, 240, 240\)},)]TJ
+T*[(395:)-600(   {"grey95"                , rgbcolor \(242, 242, 242\)},)]TJ
+T*[(396:)-600(   {"grey96"                , rgbcolor \(245, 245, 245\)},)]TJ
+T*[(397:)-600(   {"grey97"                , rgbcolor \(247, 247, 247\)},)]TJ
+T*[(398:)-600(   {"grey98"                , rgbcolor \(250, 250, 250\)},)]TJ
+T*[(399:)-600(   {"grey99"                , rgbcolor \(252, 252, 252\)},)]TJ
+T*[(400:)-600(   {"honeydew"              , rgbcolor \(240, 255, 240\)},)]TJ
+T*[(401:)-600(   {"honeydew1"             , rgbcolor \(240, 255, 240\)},)]TJ
+T*[(402:)-600(   {"honeydew2"             , rgbcolor \(224, 238, 224\)},)]TJ
+T*[(403:)-600(   {"honeydew3"             , rgbcolor \(193, 205, 193\)},)]TJ
+T*[(404:)-600(   {"honeydew4"             , rgbcolor \(131, 139, 131\)},)]TJ
+T*[(405:)-600(   {"hot-pink"              , rgbcolor \(255, 105, 180\)},)]TJ
+T*[(406:)-600(   {"HotPink"               , rgbcolor \(255, 105, 180\)},)]TJ
+ET
+Q
+Q
+endstream
+endobj
+45 0 obj
+5025
+endobj
+49 0 obj
+<</Length 50 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(02/21/18)Tj
+-0.659766 -12.8 Td
+(17:42:47)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 513.484 739.2 Tm
+(8)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/14)Tj
+/R12 14 Tf
+-264.57 -2.7 Td
+(colors.cppgen)Tj
+-106.747 18 Td
+($cmps109-wm/Assignments/asg4-oop-opengl/code/)Tj
+ET
+Q
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 57.2 718 Tm
+[(407:)-600(   {"HotPink1"              , rgbcolor \(255, 110, 180\)},)]TJ
+12 TL
+T*[(408:)-600(   {"HotPink2"              , rgbcolor \(238, 106, 167\)},)]TJ
+T*[(409:)-600(   {"HotPink3"              , rgbcolor \(205,  96, 144\)},)]TJ
+T*[(410:)-600(   {"HotPink4"              , rgbcolor \(139,  58,  98\)},)]TJ
+T*[(411:)-600(   {"indian-red"            , rgbcolor \(205,  92,  92\)},)]TJ
+T*[(412:)-600(   {"IndianRed"             , rgbcolor \(205,  92,  92\)},)]TJ
+T*[(413:)-600(   {"IndianRed1"            , rgbcolor \(255, 106, 106\)},)]TJ
+T*[(414:)-600(   {"IndianRed2"            , rgbcolor \(238,  99,  99\)},)]TJ
+T*[(415:)-600(   {"IndianRed3"            , rgbcolor \(205,  85,  85\)},)]TJ
+T*[(416:)-600(   {"IndianRed4"            , rgbcolor \(139,  58,  58\)},)]TJ
+T*[(417:)-600(   {"indigo"                , rgbcolor \( 75,   0, 130\)},)]TJ
+T*[(418:)-600(   {"ivory"                 , rgbcolor \(255, 255, 240\)},)]TJ
+T*[(419:)-600(   {"ivory1"                , rgbcolor \(255, 255, 240\)},)]TJ
+T*[(420:)-600(   {"ivory2"                , rgbcolor \(238, 238, 224\)},)]TJ
+T*[(421:)-600(   {"ivory3"                , rgbcolor \(205, 205, 193\)},)]TJ
+T*[(422:)-600(   {"ivory4"                , rgbcolor \(139, 139, 131\)},)]TJ
+T*[(423:)-600(   {"khaki"                 , rgbcolor \(240, 230, 140\)},)]TJ
+T*[(424:)-600(   {"khaki1"                , rgbcolor \(255, 246, 143\)},)]TJ
+T*[(425:)-600(   {"khaki2"                , rgbcolor \(238, 230, 133\)},)]TJ
+T*[(426:)-600(   {"khaki3"                , rgbcolor \(205, 198, 115\)},)]TJ
+T*[(427:)-600(   {"khaki4"                , rgbcolor \(139, 134,  78\)},)]TJ
+T*[(428:)-600(   {"lavender"              , rgbcolor \(230, 230, 250\)},)]TJ
+T*[(429:)-600(   {"lavender-blush"        , rgbcolor \(255, 240, 245\)},)]TJ
+T*[(430:)-600(   {"LavenderBlush"         , rgbcolor \(255, 240, 245\)},)]TJ
+T*[(431:)-600(   {"LavenderBlush1"        , rgbcolor \(255, 240, 245\)},)]TJ
+T*[(432:)-600(   {"LavenderBlush2"        , rgbcolor \(238, 224, 229\)},)]TJ
+T*[(433:)-600(   {"LavenderBlush3"        , rgbcolor \(205, 193, 197\)},)]TJ
+T*[(434:)-600(   {"LavenderBlush4"        , rgbcolor \(139, 131, 134\)},)]TJ
+T*[(435:)-600(   {"lawn-green"            , rgbcolor \(124, 252,   0\)},)]TJ
+T*[(436:)-600(   {"LawnGreen"             , rgbcolor \(124, 252,   0\)},)]TJ
+T*[(437:)-600(   {"lemon-chiffon"         , rgbcolor \(255, 250, 205\)},)]TJ
+T*[(438:)-600(   {"LemonChiffon"          , rgbcolor \(255, 250, 205\)},)]TJ
+T*[(439:)-600(   {"LemonChiffon1"         , rgbcolor \(255, 250, 205\)},)]TJ
+T*[(440:)-600(   {"LemonChiffon2"         , rgbcolor \(238, 233, 191\)},)]TJ
+T*[(441:)-600(   {"LemonChiffon3"         , rgbcolor \(205, 201, 165\)},)]TJ
+T*[(442:)-600(   {"LemonChiffon4"         , rgbcolor \(139, 137, 112\)},)]TJ
+T*[(443:)-600(   {"light-blue"            , rgbcolor \(173, 216, 230\)},)]TJ
+T*[(444:)-600(   {"light-coral"           , rgbcolor \(240, 128, 128\)},)]TJ
+T*[(445:)-600(   {"light-cyan"            , rgbcolor \(224, 255, 255\)},)]TJ
+T*[(446:)-600(   {"light-goldenrod"       , rgbcolor \(238, 221, 130\)},)]TJ
+T*[(447:)-600(   {"light-goldenrod-yellow", rgbcolor \(250, 250, 210\)},)]TJ
+T*[(448:)-600(   {"light-gray"            , rgbcolor \(211, 211, 211\)},)]TJ
+T*[(449:)-600(   {"light-green"           , rgbcolor \(144, 238, 144\)},)]TJ
+T*[(450:)-600(   {"light-grey"            , rgbcolor \(211, 211, 211\)},)]TJ
+T*[(451:)-600(   {"light-pink"            , rgbcolor \(255, 182, 193\)},)]TJ
+T*[(452:)-600(   {"light-salmon"          , rgbcolor \(255, 160, 122\)},)]TJ
+T*[(453:)-600(   {"light-sea-green"       , rgbcolor \( 32, 178, 170\)},)]TJ
+T*[(454:)-600(   {"light-sky-blue"        , rgbcolor \(135, 206, 250\)},)]TJ
+T*[(455:)-600(   {"light-slate-blue"      , rgbcolor \(132, 112, 255\)},)]TJ
+T*[(456:)-600(   {"light-slate-gray"      , rgbcolor \(119, 136, 153\)},)]TJ
+T*[(457:)-600(   {"light-slate-grey"      , rgbcolor \(119, 136, 153\)},)]TJ
+T*[(458:)-600(   {"light-steel-blue"      , rgbcolor \(176, 196, 222\)},)]TJ
+T*[(459:)-600(   {"light-yellow"          , rgbcolor \(255, 255, 224\)},)]TJ
+T*[(460:)-600(   {"LightBlue"             , rgbcolor \(173, 216, 230\)},)]TJ
+T*[(461:)-600(   {"LightBlue1"            , rgbcolor \(191, 239, 255\)},)]TJ
+T*[(462:)-600(   {"LightBlue2"            , rgbcolor \(178, 223, 238\)},)]TJ
+T*[(463:)-600(   {"LightBlue3"            , rgbcolor \(154, 192, 205\)},)]TJ
+T*[(464:)-600(   {"LightBlue4"            , rgbcolor \(104, 131, 139\)},)]TJ
+ET
+Q
+Q
+endstream
+endobj
+50 0 obj
+5025
+endobj
+54 0 obj
+<</Length 55 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(02/21/18)Tj
+-0.659766 -12.8 Td
+(17:42:47)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 513.484 739.2 Tm
+(9)Tj
+/R10 18 Tf
+16.0129 0 Td
+(/14)Tj
+/R12 14 Tf
+-264.57 -2.7 Td
+(colors.cppgen)Tj
+-106.747 18 Td
+($cmps109-wm/Assignments/asg4-oop-opengl/code/)Tj
+ET
+Q
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 57.2 718 Tm
+[(465:)-600(   {"LightCoral"            , rgbcolor \(240, 128, 128\)},)]TJ
+12 TL
+T*[(466:)-600(   {"LightCyan"             , rgbcolor \(224, 255, 255\)},)]TJ
+T*[(467:)-600(   {"LightCyan1"            , rgbcolor \(224, 255, 255\)},)]TJ
+T*[(468:)-600(   {"LightCyan2"            , rgbcolor \(209, 238, 238\)},)]TJ
+T*[(469:)-600(   {"LightCyan3"            , rgbcolor \(180, 205, 205\)},)]TJ
+T*[(470:)-600(   {"LightCyan4"            , rgbcolor \(122, 139, 139\)},)]TJ
+T*[(471:)-600(   {"LightGoldenrod"        , rgbcolor \(238, 221, 130\)},)]TJ
+T*[(472:)-600(   {"LightGoldenrod1"       , rgbcolor \(255, 236, 139\)},)]TJ
+T*[(473:)-600(   {"LightGoldenrod2"       , rgbcolor \(238, 220, 130\)},)]TJ
+T*[(474:)-600(   {"LightGoldenrod3"       , rgbcolor \(205, 190, 112\)},)]TJ
+T*[(475:)-600(   {"LightGoldenrod4"       , rgbcolor \(139, 129,  76\)},)]TJ
+T*[(476:)-600(   {"LightGoldenrodYellow"  , rgbcolor \(250, 250, 210\)},)]TJ
+T*[(477:)-600(   {"LightGray"             , rgbcolor \(211, 211, 211\)},)]TJ
+T*[(478:)-600(   {"LightGreen"            , rgbcolor \(144, 238, 144\)},)]TJ
+T*[(479:)-600(   {"LightGrey"             , rgbcolor \(211, 211, 211\)},)]TJ
+T*[(480:)-600(   {"LightPink"             , rgbcolor \(255, 182, 193\)},)]TJ
+T*[(481:)-600(   {"LightPink1"            , rgbcolor \(255, 174, 185\)},)]TJ
+T*[(482:)-600(   {"LightPink2"            , rgbcolor \(238, 162, 173\)},)]TJ
+T*[(483:)-600(   {"LightPink3"            , rgbcolor \(205, 140, 149\)},)]TJ
+T*[(484:)-600(   {"LightPink4"            , rgbcolor \(139,  95, 101\)},)]TJ
+T*[(485:)-600(   {"LightSalmon"           , rgbcolor \(255, 160, 122\)},)]TJ
+T*[(486:)-600(   {"LightSalmon1"          , rgbcolor \(255, 160, 122\)},)]TJ
+T*[(487:)-600(   {"LightSalmon2"          , rgbcolor \(238, 149, 114\)},)]TJ
+T*[(488:)-600(   {"LightSalmon3"          , rgbcolor \(205, 129,  98\)},)]TJ
+T*[(489:)-600(   {"LightSalmon4"          , rgbcolor \(139,  87,  66\)},)]TJ
+T*[(490:)-600(   {"LightSeaGreen"         , rgbcolor \( 32, 178, 170\)},)]TJ
+T*[(491:)-600(   {"LightSkyBlue"          , rgbcolor \(135, 206, 250\)},)]TJ
+T*[(492:)-600(   {"LightSkyBlue1"         , rgbcolor \(176, 226, 255\)},)]TJ
+T*[(493:)-600(   {"LightSkyBlue2"         , rgbcolor \(164, 211, 238\)},)]TJ
+T*[(494:)-600(   {"LightSkyBlue3"         , rgbcolor \(141, 182, 205\)},)]TJ
+T*[(495:)-600(   {"LightSkyBlue4"         , rgbcolor \( 96, 123, 139\)},)]TJ
+T*[(496:)-600(   {"LightSlateBlue"        , rgbcolor \(132, 112, 255\)},)]TJ
+T*[(497:)-600(   {"LightSlateGray"        , rgbcolor \(119, 136, 153\)},)]TJ
+T*[(498:)-600(   {"LightSlateGrey"        , rgbcolor \(119, 136, 153\)},)]TJ
+T*[(499:)-600(   {"LightSteelBlue"        , rgbcolor \(176, 196, 222\)},)]TJ
+T*[(500:)-600(   {"LightSteelBlue1"       , rgbcolor \(202, 225, 255\)},)]TJ
+T*[(501:)-600(   {"LightSteelBlue2"       , rgbcolor \(188, 210, 238\)},)]TJ
+T*[(502:)-600(   {"LightSteelBlue3"       , rgbcolor \(162, 181, 205\)},)]TJ
+T*[(503:)-600(   {"LightSteelBlue4"       , rgbcolor \(110, 123, 139\)},)]TJ
+T*[(504:)-600(   {"LightYellow"           , rgbcolor \(255, 255, 224\)},)]TJ
+T*[(505:)-600(   {"LightYellow1"          , rgbcolor \(255, 255, 224\)},)]TJ
+T*[(506:)-600(   {"LightYellow2"          , rgbcolor \(238, 238, 209\)},)]TJ
+T*[(507:)-600(   {"LightYellow3"          , rgbcolor \(205, 205, 180\)},)]TJ
+T*[(508:)-600(   {"LightYellow4"          , rgbcolor \(139, 139, 122\)},)]TJ
+T*[(509:)-600(   {"lime"                  , rgbcolor \(  0, 255,   0\)},)]TJ
+T*[(510:)-600(   {"lime-green"            , rgbcolor \( 50, 205,  50\)},)]TJ
+T*[(511:)-600(   {"LimeGreen"             , rgbcolor \( 50, 205,  50\)},)]TJ
+T*[(512:)-600(   {"linen"                 , rgbcolor \(250, 240, 230\)},)]TJ
+T*[(513:)-600(   {"magenta"               , rgbcolor \(255,   0, 255\)},)]TJ
+T*[(514:)-600(   {"magenta1"              , rgbcolor \(255,   0, 255\)},)]TJ
+T*[(515:)-600(   {"magenta2"              , rgbcolor \(238,   0, 238\)},)]TJ
+T*[(516:)-600(   {"magenta3"              , rgbcolor \(205,   0, 205\)},)]TJ
+T*[(517:)-600(   {"magenta4"              , rgbcolor \(139,   0, 139\)},)]TJ
+T*[(518:)-600(   {"maroon"                , rgbcolor \(176,  48,  96\)},)]TJ
+T*[(519:)-600(   {"maroon1"               , rgbcolor \(255,  52, 179\)},)]TJ
+T*[(520:)-600(   {"maroon2"               , rgbcolor \(238,  48, 167\)},)]TJ
+T*[(521:)-600(   {"maroon3"               , rgbcolor \(205,  41, 144\)},)]TJ
+T*[(522:)-600(   {"maroon4"               , rgbcolor \(139,  28,  98\)},)]TJ
+ET
+Q
+Q
+endstream
+endobj
+55 0 obj
+5025
+endobj
+59 0 obj
+<</Length 60 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(02/21/18)Tj
+-0.659766 -12.8 Td
+(17:42:47)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 505.478 739.2 Tm
+(10)Tj
+/R10 18 Tf
+32.0258 0 Td
+(/14)Tj
+/R12 14 Tf
+-272.577 -2.7 Td
+(colors.cppgen)Tj
+-106.747 18 Td
+($cmps109-wm/Assignments/asg4-oop-opengl/code/)Tj
+ET
+Q
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 57.2 718 Tm
+[(523:)-600(   {"medium-aquamarine"     , rgbcolor \(102, 205, 170\)},)]TJ
+12 TL
+T*[(524:)-600(   {"medium-blue"           , rgbcolor \(  0,   0, 205\)},)]TJ
+T*[(525:)-600(   {"medium-orchid"         , rgbcolor \(186,  85, 211\)},)]TJ
+T*[(526:)-600(   {"medium-purple"         , rgbcolor \(147, 112, 219\)},)]TJ
+T*[(527:)-600(   {"medium-sea-green"      , rgbcolor \( 60, 179, 113\)},)]TJ
+T*[(528:)-600(   {"medium-slate-blue"     , rgbcolor \(123, 104, 238\)},)]TJ
+T*[(529:)-600(   {"medium-spring-green"   , rgbcolor \(  0, 250, 154\)},)]TJ
+T*[(530:)-600(   {"medium-turquoise"      , rgbcolor \( 72, 209, 204\)},)]TJ
+T*[(531:)-600(   {"medium-violet-red"     , rgbcolor \(199,  21, 133\)},)]TJ
+T*[(532:)-600(   {"MediumAquamarine"      , rgbcolor \(102, 205, 170\)},)]TJ
+T*[(533:)-600(   {"MediumBlue"            , rgbcolor \(  0,   0, 205\)},)]TJ
+T*[(534:)-600(   {"MediumOrchid"          , rgbcolor \(186,  85, 211\)},)]TJ
+T*[(535:)-600(   {"MediumOrchid1"         , rgbcolor \(224, 102, 255\)},)]TJ
+T*[(536:)-600(   {"MediumOrchid2"         , rgbcolor \(209,  95, 238\)},)]TJ
+T*[(537:)-600(   {"MediumOrchid3"         , rgbcolor \(180,  82, 205\)},)]TJ
+T*[(538:)-600(   {"MediumOrchid4"         , rgbcolor \(122,  55, 139\)},)]TJ
+T*[(539:)-600(   {"MediumPurple"          , rgbcolor \(147, 112, 219\)},)]TJ
+T*[(540:)-600(   {"MediumPurple1"         , rgbcolor \(171, 130, 255\)},)]TJ
+T*[(541:)-600(   {"MediumPurple2"         , rgbcolor \(159, 121, 238\)},)]TJ
+T*[(542:)-600(   {"MediumPurple3"         , rgbcolor \(137, 104, 205\)},)]TJ
+T*[(543:)-600(   {"MediumPurple4"         , rgbcolor \( 93,  71, 139\)},)]TJ
+T*[(544:)-600(   {"MediumSeaGreen"        , rgbcolor \( 60, 179, 113\)},)]TJ
+T*[(545:)-600(   {"MediumSlateBlue"       , rgbcolor \(123, 104, 238\)},)]TJ
+T*[(546:)-600(   {"MediumSpringGreen"     , rgbcolor \(  0, 250, 154\)},)]TJ
+T*[(547:)-600(   {"MediumTurquoise"       , rgbcolor \( 72, 209, 204\)},)]TJ
+T*[(548:)-600(   {"MediumVioletRed"       , rgbcolor \(199,  21, 133\)},)]TJ
+T*[(549:)-600(   {"midnight-blue"         , rgbcolor \( 25,  25, 112\)},)]TJ
+T*[(550:)-600(   {"MidnightBlue"          , rgbcolor \( 25,  25, 112\)},)]TJ
+T*[(551:)-600(   {"mint-cream"            , rgbcolor \(245, 255, 250\)},)]TJ
+T*[(552:)-600(   {"MintCream"             , rgbcolor \(245, 255, 250\)},)]TJ
+T*[(553:)-600(   {"misty-rose"            , rgbcolor \(255, 228, 225\)},)]TJ
+T*[(554:)-600(   {"MistyRose"             , rgbcolor \(255, 228, 225\)},)]TJ
+T*[(555:)-600(   {"MistyRose1"            , rgbcolor \(255, 228, 225\)},)]TJ
+T*[(556:)-600(   {"MistyRose2"            , rgbcolor \(238, 213, 210\)},)]TJ
+T*[(557:)-600(   {"MistyRose3"            , rgbcolor \(205, 183, 181\)},)]TJ
+T*[(558:)-600(   {"MistyRose4"            , rgbcolor \(139, 125, 123\)},)]TJ
+T*[(559:)-600(   {"moccasin"              , rgbcolor \(255, 228, 181\)},)]TJ
+T*[(560:)-600(   {"navajo-white"          , rgbcolor \(255, 222, 173\)},)]TJ
+T*[(561:)-600(   {"NavajoWhite"           , rgbcolor \(255, 222, 173\)},)]TJ
+T*[(562:)-600(   {"NavajoWhite1"          , rgbcolor \(255, 222, 173\)},)]TJ
+T*[(563:)-600(   {"NavajoWhite2"          , rgbcolor \(238, 207, 161\)},)]TJ
+T*[(564:)-600(   {"NavajoWhite3"          , rgbcolor \(205, 179, 139\)},)]TJ
+T*[(565:)-600(   {"NavajoWhite4"          , rgbcolor \(139, 121,  94\)},)]TJ
+T*[(566:)-600(   {"navy"                  , rgbcolor \(  0,   0, 128\)},)]TJ
+T*[(567:)-600(   {"navy-blue"             , rgbcolor \(  0,   0, 128\)},)]TJ
+T*[(568:)-600(   {"NavyBlue"              , rgbcolor \(  0,   0, 128\)},)]TJ
+T*[(569:)-600(   {"old-lace"              , rgbcolor \(253, 245, 230\)},)]TJ
+T*[(570:)-600(   {"OldLace"               , rgbcolor \(253, 245, 230\)},)]TJ
+T*[(571:)-600(   {"olive"                 , rgbcolor \(128, 128,   0\)},)]TJ
+T*[(572:)-600(   {"olive-drab"            , rgbcolor \(107, 142,  35\)},)]TJ
+T*[(573:)-600(   {"OliveDrab"             , rgbcolor \(107, 142,  35\)},)]TJ
+T*[(574:)-600(   {"OliveDrab1"            , rgbcolor \(192, 255,  62\)},)]TJ
+T*[(575:)-600(   {"OliveDrab2"            , rgbcolor \(179, 238,  58\)},)]TJ
+T*[(576:)-600(   {"OliveDrab3"            , rgbcolor \(154, 205,  50\)},)]TJ
+T*[(577:)-600(   {"OliveDrab4"            , rgbcolor \(105, 139,  34\)},)]TJ
+T*[(578:)-600(   {"orange"                , rgbcolor \(255, 165,   0\)},)]TJ
+T*[(579:)-600(   {"orange-red"            , rgbcolor \(255,  69,   0\)},)]TJ
+T*[(580:)-600(   {"orange1"               , rgbcolor \(255, 165,   0\)},)]TJ
+ET
+Q
+Q
+endstream
+endobj
+60 0 obj
+5027
+endobj
+64 0 obj
+<</Length 65 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(02/21/18)Tj
+-0.659766 -12.8 Td
+(17:42:47)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 505.478 739.2 Tm
+(11)Tj
+/R10 18 Tf
+32.0258 0 Td
+(/14)Tj
+/R12 14 Tf
+-272.577 -2.7 Td
+(colors.cppgen)Tj
+-106.747 18 Td
+($cmps109-wm/Assignments/asg4-oop-opengl/code/)Tj
+ET
+Q
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 57.2 718 Tm
+[(581:)-600(   {"orange2"               , rgbcolor \(238, 154,   0\)},)]TJ
+12 TL
+T*[(582:)-600(   {"orange3"               , rgbcolor \(205, 133,   0\)},)]TJ
+T*[(583:)-600(   {"orange4"               , rgbcolor \(139,  90,   0\)},)]TJ
+T*[(584:)-600(   {"OrangeRed"             , rgbcolor \(255,  69,   0\)},)]TJ
+T*[(585:)-600(   {"OrangeRed1"            , rgbcolor \(255,  69,   0\)},)]TJ
+T*[(586:)-600(   {"OrangeRed2"            , rgbcolor \(238,  64,   0\)},)]TJ
+T*[(587:)-600(   {"OrangeRed3"            , rgbcolor \(205,  55,   0\)},)]TJ
+T*[(588:)-600(   {"OrangeRed4"            , rgbcolor \(139,  37,   0\)},)]TJ
+T*[(589:)-600(   {"orchid"                , rgbcolor \(218, 112, 214\)},)]TJ
+T*[(590:)-600(   {"orchid1"               , rgbcolor \(255, 131, 250\)},)]TJ
+T*[(591:)-600(   {"orchid2"               , rgbcolor \(238, 122, 233\)},)]TJ
+T*[(592:)-600(   {"orchid3"               , rgbcolor \(205, 105, 201\)},)]TJ
+T*[(593:)-600(   {"orchid4"               , rgbcolor \(139,  71, 137\)},)]TJ
+T*[(594:)-600(   {"pale-goldenrod"        , rgbcolor \(238, 232, 170\)},)]TJ
+T*[(595:)-600(   {"pale-green"            , rgbcolor \(152, 251, 152\)},)]TJ
+T*[(596:)-600(   {"pale-turquoise"        , rgbcolor \(175, 238, 238\)},)]TJ
+T*[(597:)-600(   {"pale-violet-red"       , rgbcolor \(219, 112, 147\)},)]TJ
+T*[(598:)-600(   {"PaleGoldenrod"         , rgbcolor \(238, 232, 170\)},)]TJ
+T*[(599:)-600(   {"PaleGreen"             , rgbcolor \(152, 251, 152\)},)]TJ
+T*[(600:)-600(   {"PaleGreen1"            , rgbcolor \(154, 255, 154\)},)]TJ
+T*[(601:)-600(   {"PaleGreen2"            , rgbcolor \(144, 238, 144\)},)]TJ
+T*[(602:)-600(   {"PaleGreen3"            , rgbcolor \(124, 205, 124\)},)]TJ
+T*[(603:)-600(   {"PaleGreen4"            , rgbcolor \( 84, 139,  84\)},)]TJ
+T*[(604:)-600(   {"PaleTurquoise"         , rgbcolor \(175, 238, 238\)},)]TJ
+T*[(605:)-600(   {"PaleTurquoise1"        , rgbcolor \(187, 255, 255\)},)]TJ
+T*[(606:)-600(   {"PaleTurquoise2"        , rgbcolor \(174, 238, 238\)},)]TJ
+T*[(607:)-600(   {"PaleTurquoise3"        , rgbcolor \(150, 205, 205\)},)]TJ
+T*[(608:)-600(   {"PaleTurquoise4"        , rgbcolor \(102, 139, 139\)},)]TJ
+T*[(609:)-600(   {"PaleVioletRed"         , rgbcolor \(219, 112, 147\)},)]TJ
+T*[(610:)-600(   {"PaleVioletRed1"        , rgbcolor \(255, 130, 171\)},)]TJ
+T*[(611:)-600(   {"PaleVioletRed2"        , rgbcolor \(238, 121, 159\)},)]TJ
+T*[(612:)-600(   {"PaleVioletRed3"        , rgbcolor \(205, 104, 137\)},)]TJ
+T*[(613:)-600(   {"PaleVioletRed4"        , rgbcolor \(139,  71,  93\)},)]TJ
+T*[(614:)-600(   {"papaya-whip"           , rgbcolor \(255, 239, 213\)},)]TJ
+T*[(615:)-600(   {"PapayaWhip"            , rgbcolor \(255, 239, 213\)},)]TJ
+T*[(616:)-600(   {"peach-puff"            , rgbcolor \(255, 218, 185\)},)]TJ
+T*[(617:)-600(   {"PeachPuff"             , rgbcolor \(255, 218, 185\)},)]TJ
+T*[(618:)-600(   {"PeachPuff1"            , rgbcolor \(255, 218, 185\)},)]TJ
+T*[(619:)-600(   {"PeachPuff2"            , rgbcolor \(238, 203, 173\)},)]TJ
+T*[(620:)-600(   {"PeachPuff3"            , rgbcolor \(205, 175, 149\)},)]TJ
+T*[(621:)-600(   {"PeachPuff4"            , rgbcolor \(139, 119, 101\)},)]TJ
+T*[(622:)-600(   {"peru"                  , rgbcolor \(205, 133,  63\)},)]TJ
+T*[(623:)-600(   {"pink"                  , rgbcolor \(255, 192, 203\)},)]TJ
+T*[(624:)-600(   {"pink1"                 , rgbcolor \(255, 181, 197\)},)]TJ
+T*[(625:)-600(   {"pink2"                 , rgbcolor \(238, 169, 184\)},)]TJ
+T*[(626:)-600(   {"pink3"                 , rgbcolor \(205, 145, 158\)},)]TJ
+T*[(627:)-600(   {"pink4"                 , rgbcolor \(139,  99, 108\)},)]TJ
+T*[(628:)-600(   {"plum"                  , rgbcolor \(221, 160, 221\)},)]TJ
+T*[(629:)-600(   {"plum1"                 , rgbcolor \(255, 187, 255\)},)]TJ
+T*[(630:)-600(   {"plum2"                 , rgbcolor \(238, 174, 238\)},)]TJ
+T*[(631:)-600(   {"plum3"                 , rgbcolor \(205, 150, 205\)},)]TJ
+T*[(632:)-600(   {"plum4"                 , rgbcolor \(139, 102, 139\)},)]TJ
+T*[(633:)-600(   {"powder-blue"           , rgbcolor \(176, 224, 230\)},)]TJ
+T*[(634:)-600(   {"PowderBlue"            , rgbcolor \(176, 224, 230\)},)]TJ
+T*[(635:)-600(   {"purple"                , rgbcolor \(160,  32, 240\)},)]TJ
+T*[(636:)-600(   {"purple1"               , rgbcolor \(155,  48, 255\)},)]TJ
+T*[(637:)-600(   {"purple2"               , rgbcolor \(145,  44, 238\)},)]TJ
+T*[(638:)-600(   {"purple3"               , rgbcolor \(125,  38, 205\)},)]TJ
+ET
+Q
+Q
+endstream
+endobj
+65 0 obj
+5027
+endobj
+69 0 obj
+<</Length 70 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(02/21/18)Tj
+-0.659766 -12.8 Td
+(17:42:47)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 505.478 739.2 Tm
+(12)Tj
+/R10 18 Tf
+32.0258 0 Td
+(/14)Tj
+/R12 14 Tf
+-272.577 -2.7 Td
+(colors.cppgen)Tj
+-106.747 18 Td
+($cmps109-wm/Assignments/asg4-oop-opengl/code/)Tj
+ET
+Q
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 57.2 718 Tm
+[(639:)-600(   {"purple4"               , rgbcolor \( 85,  26, 139\)},)]TJ
+12 TL
+T*[(640:)-600(   {"rebecca-purple"        , rgbcolor \(102,  51, 153\)},)]TJ
+T*[(641:)-600(   {"RebeccaPurple"         , rgbcolor \(102,  51, 153\)},)]TJ
+T*[(642:)-600(   {"red"                   , rgbcolor \(255,   0,   0\)},)]TJ
+T*[(643:)-600(   {"red1"                  , rgbcolor \(255,   0,   0\)},)]TJ
+T*[(644:)-600(   {"red2"                  , rgbcolor \(238,   0,   0\)},)]TJ
+T*[(645:)-600(   {"red3"                  , rgbcolor \(205,   0,   0\)},)]TJ
+T*[(646:)-600(   {"red4"                  , rgbcolor \(139,   0,   0\)},)]TJ
+T*[(647:)-600(   {"rosy-brown"            , rgbcolor \(188, 143, 143\)},)]TJ
+T*[(648:)-600(   {"RosyBrown"             , rgbcolor \(188, 143, 143\)},)]TJ
+T*[(649:)-600(   {"RosyBrown1"            , rgbcolor \(255, 193, 193\)},)]TJ
+T*[(650:)-600(   {"RosyBrown2"            , rgbcolor \(238, 180, 180\)},)]TJ
+T*[(651:)-600(   {"RosyBrown3"            , rgbcolor \(205, 155, 155\)},)]TJ
+T*[(652:)-600(   {"RosyBrown4"            , rgbcolor \(139, 105, 105\)},)]TJ
+T*[(653:)-600(   {"royal-blue"            , rgbcolor \( 65, 105, 225\)},)]TJ
+T*[(654:)-600(   {"RoyalBlue"             , rgbcolor \( 65, 105, 225\)},)]TJ
+T*[(655:)-600(   {"RoyalBlue1"            , rgbcolor \( 72, 118, 255\)},)]TJ
+T*[(656:)-600(   {"RoyalBlue2"            , rgbcolor \( 67, 110, 238\)},)]TJ
+T*[(657:)-600(   {"RoyalBlue3"            , rgbcolor \( 58,  95, 205\)},)]TJ
+T*[(658:)-600(   {"RoyalBlue4"            , rgbcolor \( 39,  64, 139\)},)]TJ
+T*[(659:)-600(   {"saddle-brown"          , rgbcolor \(139,  69,  19\)},)]TJ
+T*[(660:)-600(   {"SaddleBrown"           , rgbcolor \(139,  69,  19\)},)]TJ
+T*[(661:)-600(   {"salmon"                , rgbcolor \(250, 128, 114\)},)]TJ
+T*[(662:)-600(   {"salmon1"               , rgbcolor \(255, 140, 105\)},)]TJ
+T*[(663:)-600(   {"salmon2"               , rgbcolor \(238, 130,  98\)},)]TJ
+T*[(664:)-600(   {"salmon3"               , rgbcolor \(205, 112,  84\)},)]TJ
+T*[(665:)-600(   {"salmon4"               , rgbcolor \(139,  76,  57\)},)]TJ
+T*[(666:)-600(   {"sandy-brown"           , rgbcolor \(244, 164,  96\)},)]TJ
+T*[(667:)-600(   {"SandyBrown"            , rgbcolor \(244, 164,  96\)},)]TJ
+T*[(668:)-600(   {"sea-green"             , rgbcolor \( 46, 139,  87\)},)]TJ
+T*[(669:)-600(   {"SeaGreen"              , rgbcolor \( 46, 139,  87\)},)]TJ
+T*[(670:)-600(   {"SeaGreen1"             , rgbcolor \( 84, 255, 159\)},)]TJ
+T*[(671:)-600(   {"SeaGreen2"             , rgbcolor \( 78, 238, 148\)},)]TJ
+T*[(672:)-600(   {"SeaGreen3"             , rgbcolor \( 67, 205, 128\)},)]TJ
+T*[(673:)-600(   {"SeaGreen4"             , rgbcolor \( 46, 139,  87\)},)]TJ
+T*[(674:)-600(   {"seashell"              , rgbcolor \(255, 245, 238\)},)]TJ
+T*[(675:)-600(   {"seashell1"             , rgbcolor \(255, 245, 238\)},)]TJ
+T*[(676:)-600(   {"seashell2"             , rgbcolor \(238, 229, 222\)},)]TJ
+T*[(677:)-600(   {"seashell3"             , rgbcolor \(205, 197, 191\)},)]TJ
+T*[(678:)-600(   {"seashell4"             , rgbcolor \(139, 134, 130\)},)]TJ
+T*[(679:)-600(   {"sienna"                , rgbcolor \(160,  82,  45\)},)]TJ
+T*[(680:)-600(   {"sienna1"               , rgbcolor \(255, 130,  71\)},)]TJ
+T*[(681:)-600(   {"sienna2"               , rgbcolor \(238, 121,  66\)},)]TJ
+T*[(682:)-600(   {"sienna3"               , rgbcolor \(205, 104,  57\)},)]TJ
+T*[(683:)-600(   {"sienna4"               , rgbcolor \(139,  71,  38\)},)]TJ
+T*[(684:)-600(   {"silver"                , rgbcolor \(192, 192, 192\)},)]TJ
+T*[(685:)-600(   {"sky-blue"              , rgbcolor \(135, 206, 235\)},)]TJ
+T*[(686:)-600(   {"SkyBlue"               , rgbcolor \(135, 206, 235\)},)]TJ
+T*[(687:)-600(   {"SkyBlue1"              , rgbcolor \(135, 206, 255\)},)]TJ
+T*[(688:)-600(   {"SkyBlue2"              , rgbcolor \(126, 192, 238\)},)]TJ
+T*[(689:)-600(   {"SkyBlue3"              , rgbcolor \(108, 166, 205\)},)]TJ
+T*[(690:)-600(   {"SkyBlue4"              , rgbcolor \( 74, 112, 139\)},)]TJ
+T*[(691:)-600(   {"slate-blue"            , rgbcolor \(106,  90, 205\)},)]TJ
+T*[(692:)-600(   {"slate-gray"            , rgbcolor \(112, 128, 144\)},)]TJ
+T*[(693:)-600(   {"slate-grey"            , rgbcolor \(112, 128, 144\)},)]TJ
+T*[(694:)-600(   {"SlateBlue"             , rgbcolor \(106,  90, 205\)},)]TJ
+T*[(695:)-600(   {"SlateBlue1"            , rgbcolor \(131, 111, 255\)},)]TJ
+T*[(696:)-600(   {"SlateBlue2"            , rgbcolor \(122, 103, 238\)},)]TJ
+ET
+Q
+Q
+endstream
+endobj
+70 0 obj
+5027
+endobj
+74 0 obj
+<</Length 75 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(02/21/18)Tj
+-0.659766 -12.8 Td
+(17:42:47)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 505.478 739.2 Tm
+(13)Tj
+/R10 18 Tf
+32.0258 0 Td
+(/14)Tj
+/R12 14 Tf
+-272.577 -2.7 Td
+(colors.cppgen)Tj
+-106.747 18 Td
+($cmps109-wm/Assignments/asg4-oop-opengl/code/)Tj
+ET
+Q
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 57.2 718 Tm
+[(697:)-600(   {"SlateBlue3"            , rgbcolor \(105,  89, 205\)},)]TJ
+12 TL
+T*[(698:)-600(   {"SlateBlue4"            , rgbcolor \( 71,  60, 139\)},)]TJ
+T*[(699:)-600(   {"SlateGray"             , rgbcolor \(112, 128, 144\)},)]TJ
+T*[(700:)-600(   {"SlateGray1"            , rgbcolor \(198, 226, 255\)},)]TJ
+T*[(701:)-600(   {"SlateGray2"            , rgbcolor \(185, 211, 238\)},)]TJ
+T*[(702:)-600(   {"SlateGray3"            , rgbcolor \(159, 182, 205\)},)]TJ
+T*[(703:)-600(   {"SlateGray4"            , rgbcolor \(108, 123, 139\)},)]TJ
+T*[(704:)-600(   {"SlateGrey"             , rgbcolor \(112, 128, 144\)},)]TJ
+T*[(705:)-600(   {"snow"                  , rgbcolor \(255, 250, 250\)},)]TJ
+T*[(706:)-600(   {"snow1"                 , rgbcolor \(255, 250, 250\)},)]TJ
+T*[(707:)-600(   {"snow2"                 , rgbcolor \(238, 233, 233\)},)]TJ
+T*[(708:)-600(   {"snow3"                 , rgbcolor \(205, 201, 201\)},)]TJ
+T*[(709:)-600(   {"snow4"                 , rgbcolor \(139, 137, 137\)},)]TJ
+T*[(710:)-600(   {"spring-green"          , rgbcolor \(  0, 255, 127\)},)]TJ
+T*[(711:)-600(   {"SpringGreen"           , rgbcolor \(  0, 255, 127\)},)]TJ
+T*[(712:)-600(   {"SpringGreen1"          , rgbcolor \(  0, 255, 127\)},)]TJ
+T*[(713:)-600(   {"SpringGreen2"          , rgbcolor \(  0, 238, 118\)},)]TJ
+T*[(714:)-600(   {"SpringGreen3"          , rgbcolor \(  0, 205, 102\)},)]TJ
+T*[(715:)-600(   {"SpringGreen4"          , rgbcolor \(  0, 139,  69\)},)]TJ
+T*[(716:)-600(   {"steel-blue"            , rgbcolor \( 70, 130, 180\)},)]TJ
+T*[(717:)-600(   {"SteelBlue"             , rgbcolor \( 70, 130, 180\)},)]TJ
+T*[(718:)-600(   {"SteelBlue1"            , rgbcolor \( 99, 184, 255\)},)]TJ
+T*[(719:)-600(   {"SteelBlue2"            , rgbcolor \( 92, 172, 238\)},)]TJ
+T*[(720:)-600(   {"SteelBlue3"            , rgbcolor \( 79, 148, 205\)},)]TJ
+T*[(721:)-600(   {"SteelBlue4"            , rgbcolor \( 54, 100, 139\)},)]TJ
+T*[(722:)-600(   {"tan"                   , rgbcolor \(210, 180, 140\)},)]TJ
+T*[(723:)-600(   {"tan1"                  , rgbcolor \(255, 165,  79\)},)]TJ
+T*[(724:)-600(   {"tan2"                  , rgbcolor \(238, 154,  73\)},)]TJ
+T*[(725:)-600(   {"tan3"                  , rgbcolor \(205, 133,  63\)},)]TJ
+T*[(726:)-600(   {"tan4"                  , rgbcolor \(139,  90,  43\)},)]TJ
+T*[(727:)-600(   {"teal"                  , rgbcolor \(  0, 128, 128\)},)]TJ
+T*[(728:)-600(   {"thistle"               , rgbcolor \(216, 191, 216\)},)]TJ
+T*[(729:)-600(   {"thistle1"              , rgbcolor \(255, 225, 255\)},)]TJ
+T*[(730:)-600(   {"thistle2"              , rgbcolor \(238, 210, 238\)},)]TJ
+T*[(731:)-600(   {"thistle3"              , rgbcolor \(205, 181, 205\)},)]TJ
+T*[(732:)-600(   {"thistle4"              , rgbcolor \(139, 123, 139\)},)]TJ
+T*[(733:)-600(   {"tomato"                , rgbcolor \(255,  99,  71\)},)]TJ
+T*[(734:)-600(   {"tomato1"               , rgbcolor \(255,  99,  71\)},)]TJ
+T*[(735:)-600(   {"tomato2"               , rgbcolor \(238,  92,  66\)},)]TJ
+T*[(736:)-600(   {"tomato3"               , rgbcolor \(205,  79,  57\)},)]TJ
+T*[(737:)-600(   {"tomato4"               , rgbcolor \(139,  54,  38\)},)]TJ
+T*[(738:)-600(   {"turquoise"             , rgbcolor \( 64, 224, 208\)},)]TJ
+T*[(739:)-600(   {"turquoise1"            , rgbcolor \(  0, 245, 255\)},)]TJ
+T*[(740:)-600(   {"turquoise2"            , rgbcolor \(  0, 229, 238\)},)]TJ
+T*[(741:)-600(   {"turquoise3"            , rgbcolor \(  0, 197, 205\)},)]TJ
+T*[(742:)-600(   {"turquoise4"            , rgbcolor \(  0, 134, 139\)},)]TJ
+T*[(743:)-600(   {"violet"                , rgbcolor \(238, 130, 238\)},)]TJ
+T*[(744:)-600(   {"violet-red"            , rgbcolor \(208,  32, 144\)},)]TJ
+T*[(745:)-600(   {"VioletRed"             , rgbcolor \(208,  32, 144\)},)]TJ
+T*[(746:)-600(   {"VioletRed1"            , rgbcolor \(255,  62, 150\)},)]TJ
+T*[(747:)-600(   {"VioletRed2"            , rgbcolor \(238,  58, 140\)},)]TJ
+T*[(748:)-600(   {"VioletRed3"            , rgbcolor \(205,  50, 120\)},)]TJ
+T*[(749:)-600(   {"VioletRed4"            , rgbcolor \(139,  34,  82\)},)]TJ
+T*[(750:)-600(   {"web-gray"              , rgbcolor \(128, 128, 128\)},)]TJ
+T*[(751:)-600(   {"web-green"             , rgbcolor \(  0, 128,   0\)},)]TJ
+T*[(752:)-600(   {"web-grey"              , rgbcolor \(128, 128, 128\)},)]TJ
+T*[(753:)-600(   {"web-maroon"            , rgbcolor \(128,   0,   0\)},)]TJ
+T*[(754:)-600(   {"web-purple"            , rgbcolor \(128,   0, 128\)},)]TJ
+ET
+Q
+Q
+endstream
+endobj
+75 0 obj
+5027
+endobj
+79 0 obj
+<</Length 80 0 R>>
+stream
+q 0.1 0 0 0.1 0 0 cm
+/R7 gs
+0 G
+380 240 5360 7080 re
+S
+5 w
+0 0 0 RG
+380 7320 m
+5700 7320 l
+380 7320 m
+1100 7320 l
+1100 7680 l
+380 7680 l
+h
+S
+0 0 0 rg
+q
+10 0 0 10 0 0 cm BT
+/R8 12 Tf
+1 0 0 1 52.6641 752 Tm
+(02/21/18)Tj
+-0.659766 -12.8 Td
+(17:42:47)Tj
+ET
+Q
+4980 7320 720 360 re
+S
+q
+10 0 0 10 0 0 cm BT
+/R10 28.8 Tf
+1 0 0 1 505.478 739.2 Tm
+(14)Tj
+/R10 18 Tf
+32.0258 0 Td
+(/14)Tj
+/R12 14 Tf
+-272.577 -2.7 Td
+(colors.cppgen)Tj
+-106.747 18 Td
+($cmps109-wm/Assignments/asg4-oop-opengl/code/)Tj
+ET
+Q
+0 g
+q
+10 0 0 10 0 0 cm BT
+/R14 11 Tf
+1 0 0 1 57.2 718 Tm
+[(755:)-600(   {"WebGray"               , rgbcolor \(128, 128, 128\)},)]TJ
+12 TL
+T*[(756:)-600(   {"WebGreen"              , rgbcolor \(  0, 128,   0\)},)]TJ
+T*[(757:)-600(   {"WebGrey"               , rgbcolor \(128, 128, 128\)},)]TJ
+T*[(758:)-600(   {"WebMaroon"             , rgbcolor \(128,   0,   0\)},)]TJ
+T*[(759:)-600(   {"WebPurple"             , rgbcolor \(128,   0, 128\)},)]TJ
+T*[(760:)-600(   {"wheat"                 , rgbcolor \(245, 222, 179\)},)]TJ
+T*[(761:)-600(   {"wheat1"                , rgbcolor \(255, 231, 186\)},)]TJ
+T*[(762:)-600(   {"wheat2"                , rgbcolor \(238, 216, 174\)},)]TJ
+T*[(763:)-600(   {"wheat3"                , rgbcolor \(205, 186, 150\)},)]TJ
+T*[(764:)-600(   {"wheat4"                , rgbcolor \(139, 126, 102\)},)]TJ
+T*[(765:)-600(   {"white"                 , rgbcolor \(255, 255, 255\)},)]TJ
+T*[(766:)-600(   {"white-smoke"           , rgbcolor \(245, 245, 245\)},)]TJ
+T*[(767:)-600(   {"WhiteSmoke"            , rgbcolor \(245, 245, 245\)},)]TJ
+T*[(768:)-600(   {"x11-gray"              , rgbcolor \(190, 190, 190\)},)]TJ
+T*[(769:)-600(   {"x11-green"             , rgbcolor \(  0, 255,   0\)},)]TJ
+T*[(770:)-600(   {"x11-grey"              , rgbcolor \(190, 190, 190\)},)]TJ
+T*[(771:)-600(   {"x11-maroon"            , rgbcolor \(176,  48,  96\)},)]TJ
+T*[(772:)-600(   {"x11-purple"            , rgbcolor \(160,  32, 240\)},)]TJ
+T*[(773:)-600(   {"X11Gray"               , rgbcolor \(190, 190, 190\)},)]TJ
+T*[(774:)-600(   {"X11Green"              , rgbcolor \(  0, 255,   0\)},)]TJ
+T*[(775:)-600(   {"X11Grey"               , rgbcolor \(190, 190, 190\)},)]TJ
+T*[(776:)-600(   {"X11Maroon"             , rgbcolor \(176,  48,  96\)},)]TJ
+T*[(777:)-600(   {"X11Purple"             , rgbcolor \(160,  32, 240\)},)]TJ
+T*[(778:)-600(   {"yellow"                , rgbcolor \(255, 255,   0\)},)]TJ
+T*[(779:)-600(   {"yellow-green"          , rgbcolor \(154, 205,  50\)},)]TJ
+T*[(780:)-600(   {"yellow1"               , rgbcolor \(255, 255,   0\)},)]TJ
+T*[(781:)-600(   {"yellow2"               , rgbcolor \(238, 238,   0\)},)]TJ
+T*[(782:)-600(   {"yellow3"               , rgbcolor \(205, 205,   0\)},)]TJ
+T*[(783:)-600(   {"yellow4"               , rgbcolor \(139, 139,   0\)},)]TJ
+T*[(784:)-600(   {"YellowGreen"           , rgbcolor \(154, 205,  50\)},)]TJ
+T*[(785:)-600(};)]TJ
+ET
+Q
+Q
+endstream
+endobj
+80 0 obj
+2892
+endobj
+4 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 16 0 R
+/Font 17 0 R
+>>
+/Contents 5 0 R
+>>
+endobj
+18 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 21 0 R
+/Font 22 0 R
+>>
+/Contents 19 0 R
+>>
+endobj
+23 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 26 0 R
+/Font 27 0 R
+>>
+/Contents 24 0 R
+>>
+endobj
+28 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 31 0 R
+/Font 32 0 R
+>>
+/Contents 29 0 R
+>>
+endobj
+33 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 36 0 R
+/Font 37 0 R
+>>
+/Contents 34 0 R
+>>
+endobj
+38 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 41 0 R
+/Font 42 0 R
+>>
+/Contents 39 0 R
+>>
+endobj
+43 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 46 0 R
+/Font 47 0 R
+>>
+/Contents 44 0 R
+>>
+endobj
+48 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 51 0 R
+/Font 52 0 R
+>>
+/Contents 49 0 R
+>>
+endobj
+53 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 56 0 R
+/Font 57 0 R
+>>
+/Contents 54 0 R
+>>
+endobj
+58 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 61 0 R
+/Font 62 0 R
+>>
+/Contents 59 0 R
+>>
+endobj
+63 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 66 0 R
+/Font 67 0 R
+>>
+/Contents 64 0 R
+>>
+endobj
+68 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 71 0 R
+/Font 72 0 R
+>>
+/Contents 69 0 R
+>>
+endobj
+73 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 76 0 R
+/Font 77 0 R
+>>
+/Contents 74 0 R
+>>
+endobj
+78 0 obj
+<</Type/Page/MediaBox [0 0 612 792]
+/Parent 3 0 R
+/Resources<</ProcSet[/PDF /Text]
+/ExtGState 81 0 R
+/Font 82 0 R
+>>
+/Contents 79 0 R
+>>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [
+4 0 R
+18 0 R
+23 0 R
+28 0 R
+33 0 R
+38 0 R
+43 0 R
+48 0 R
+53 0 R
+58 0 R
+63 0 R
+68 0 R
+73 0 R
+78 0 R
+] /Count 14
+>>
+endobj
+1 0 obj
+<</Type /Catalog /Pages 3 0 R
+/Metadata 87 0 R
+>>
+endobj
+7 0 obj
+<</Type/ExtGState
+/OPM 1>>endobj
+16 0 obj
+<</R7
+7 0 R>>
+endobj
+17 0 obj
+<</R14
+14 0 R/R8
+8 0 R/R12
+12 0 R/R10
+10 0 R>>
+endobj
+21 0 obj
+<</R7
+7 0 R>>
+endobj
+22 0 obj
+<</R14
+14 0 R/R8
+8 0 R/R12
+12 0 R/R10
+10 0 R>>
+endobj
+26 0 obj
+<</R7
+7 0 R>>
+endobj
+27 0 obj
+<</R14
+14 0 R/R8
+8 0 R/R12
+12 0 R/R10
+10 0 R>>
+endobj
+31 0 obj
+<</R7
+7 0 R>>
+endobj
+32 0 obj
+<</R14
+14 0 R/R8
+8 0 R/R12
+12 0 R/R10
+10 0 R>>
+endobj
+36 0 obj
+<</R7
+7 0 R>>
+endobj
+37 0 obj
+<</R14
+14 0 R/R8
+8 0 R/R12
+12 0 R/R10
+10 0 R>>
+endobj
+41 0 obj
+<</R7
+7 0 R>>
+endobj
+42 0 obj
+<</R14
+14 0 R/R8
+8 0 R/R12
+12 0 R/R10
+10 0 R>>
+endobj
+46 0 obj
+<</R7
+7 0 R>>
+endobj
+47 0 obj
+<</R14
+14 0 R/R8
+8 0 R/R12
+12 0 R/R10
+10 0 R>>
+endobj
+51 0 obj
+<</R7
+7 0 R>>
+endobj
+52 0 obj
+<</R14
+14 0 R/R8
+8 0 R/R12
+12 0 R/R10
+10 0 R>>
+endobj
+56 0 obj
+<</R7
+7 0 R>>
+endobj
+57 0 obj
+<</R14
+14 0 R/R8
+8 0 R/R12
+12 0 R/R10
+10 0 R>>
+endobj
+61 0 obj
+<</R7
+7 0 R>>
+endobj
+62 0 obj
+<</R14
+14 0 R/R8
+8 0 R/R12
+12 0 R/R10
+10 0 R>>
+endobj
+66 0 obj
+<</R7
+7 0 R>>
+endobj
+67 0 obj
+<</R14
+14 0 R/R8
+8 0 R/R12
+12 0 R/R10
+10 0 R>>
+endobj
+71 0 obj
+<</R7
+7 0 R>>
+endobj
+72 0 obj
+<</R14
+14 0 R/R8
+8 0 R/R12
+12 0 R/R10
+10 0 R>>
+endobj
+76 0 obj
+<</R7
+7 0 R>>
+endobj
+77 0 obj
+<</R14
+14 0 R/R8
+8 0 R/R12
+12 0 R/R10
+10 0 R>>
+endobj
+81 0 obj
+<</R7
+7 0 R>>
+endobj
+82 0 obj
+<</R14
+14 0 R/R8
+8 0 R/R12
+12 0 R/R10
+10 0 R>>
+endobj
+14 0 obj
+<</BaseFont/HTJIZQ+Courier-Bold/FontDescriptor 15 0 R/Type/Font
+/FirstChar 32/LastChar 125/Widths[
+600 0 600 0 0 0 0 0 600 600 0 0 600 600 600 600
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 0
+0 600 600 600 600 0 600 600 600 600 0 600 600 600 600 600
+600 0 600 600 600 0 600 600 600 600 0 0 0 0 0 600
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600
+600 600 600 600 600 600 600 600 600 600 600 600 0 600]
+/Encoding/WinAnsiEncoding/Subtype/Type1>>
+endobj
+8 0 obj
+<</BaseFont/DWNZRI+Times-Bold/FontDescriptor 9 0 R/Type/Font
+/FirstChar 47/LastChar 58/Widths[ 278
+500 500 500 0 500 0 0 500 500 0 333]
+/Encoding/WinAnsiEncoding/Subtype/Type1>>
+endobj
+12 0 obj
+<</BaseFont/AXQIQH+Times-Roman/FontDescriptor 13 0 R/Type/Font
+/FirstChar 36/LastChar 119/Widths[ 500 0 0 0 0 0 0 0 0 333 250 278
+500 500 0 0 500 0 0 0 0 500 0 0 0 0 0 0
+0 722 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 444 0 444 500 444 0 500 0 278 0 0 278 778 500 500
+500 0 333 389 278 0 0 722]
+/Encoding/WinAnsiEncoding/Subtype/Type1>>
+endobj
+10 0 obj
+<</BaseFont/FXAAYL+Helvetica-Bold/FontDescriptor 11 0 R/Type/Font
+/FirstChar 47/LastChar 57/Widths[ 278
+556 556 556 556 556 556 556 556 556 556]
+/Encoding/WinAnsiEncoding/Subtype/Type1>>
+endobj
+15 0 obj
+<</Type/FontDescriptor/FontName/HTJIZQ+Courier-Bold/FontBBox[-21 -205 623 695]/Flags 35
+/Ascent 695
+/CapHeight 597
+/Descent -205
+/ItalicAngle 0
+/StemV 150
+/AvgWidth 600
+/MaxWidth 600
+/MissingWidth 600
+/XHeight 451
+/CharSet(/A/B/C/D/F/G/H/I/K/L/M/N/O/P/R/S/T/V/W/X/Y/a/b/braceleft/braceright/c/colon/comma/d/e/eight/equal/f/five/four/g/greater/h/hyphen/i/j/k/l/less/m/n/nine/o/one/p/parenleft/parenright/period/q/quotedbl/r/s/semicolon/seven/six/slash/space/t/three/two/u/underscore/v/w/x/y/z/zero)/FontFile3 83 0 R>>
+endobj
+83 0 obj
+<</Filter[/ASCII85Decode
+/FlateDecode]
+/Subtype/Type1C/Length 8372>>stream
+Gatm=$!:-X[QX_4EiN/Eij%F'TN80NC2MMTl\lPn.k1n)'cFn'AdA]1-7!J\5S?CS+O"7"K&VH@
+[Z7cLelph_p9qY_osWFHZ$+ctDf`\^m3I?NYkNS7H_5\aak;$E^"3&[oriL?KSLM_@^2M2-VR;J
+7&J18.u]OnJ$>$&`*t(*0iQj`:tVE.Ir8jo+gt?q5$^"""ie')0cm`dBD$L)_9]u6j.Q/b_O\Zg
+3il[99G40-U1;W!?J$"&HhQ7*o*.B][!_[iT7\?>2a6OP;[(R*4u;^n1*Yb48I:N9Bs7<5_b\=n
+$c7=dj$cNoWBO`&&Wm\!AO0bpO`<R6Jp9RZOtaf:Kls_M(Amq\RZDqM%1jd)9Mb?7.SLQQD"4c;
+@E9f!6#9_g\7_otG[8boj:oAYNG5SmDp$-0gRND*M^WsgG!nUV[]%fQ@fcfq@X#i2#:8`.2h/X_
+$[p!P(?[5oETp+[0/&g'I)RTd?iA^eZO((ZZ&Mj\9IF-o<Y3RjgPHe9+L-Qd7I2:++Ee@'M'-7;
+Z('B5X<m!@_8JBD4qU,_-Pd8e`!0ZoiCEYU)i7#%CW%Q/$/n[m88KW=&mL0o`61OKZ&Epr(e]f4
+<YNdjcOtR2:P)7+-cQfV0nFS0?kH^u2rRM*,UO+eM(&Rgi"JluUBl>h6c+I8aZAYZ]\=`VNr(8d
+*Gfr.Qs<=6aJkm8T:57Kf;P"_$V+FA]K53BV[ng\)uK)DFjDU`k2U)!4Qh"PEp%H")umeM/:'L.
+H,@ki-9q70f.QOT]N#WY-[n*j_k[ei/#Q(.o(&$H.HOJZ;a03S`&$r_btm>Kj<O/>Ded);\#8)Q
+2L=)NBg'pPSt7dPFZT,AqX^%dGg8:ar&C#<&_O8?i+fUK`aW8-Ms7h?lngI8-k=Fb&t(9iA-9)+
+;BaL=oS)sgJpaj.<2_Z#Q!19rR"/%?RB)TfA838QThM="MC4UXCS`e+hcd!STi3fMl5^Khm,b)E
+)?/@E\Mk7-Rsg_1]n^O+PEs>@8UsDXl`RO%Y`2,1aNrd>[bY=Ir6c?rpAEbOj)!%]cbSA\-@.j)
+#:bh=8hA1%JKte.Rsk2gKqq=9$BV<!"asI7BZ,4bY4!h]Y#BIHj("u:Tg-ZtjMKS.;tm(,QF%2e
+o&E-6MrLtOBDDKF@P-,r?5:;/rZ#l/lXY65D#M2-rEpua84*&J%V(nZ1Q*Da%h0>kJ>5Q@<M7k]
+(_r;rY/;$;ks/K%=6.Nb@NY^9\m.nR!lXYu#?f:UD$?m2*jA?E-sojQ%YHmq9bV80SLV,dD=p4G
+:^B-44Y,CJFM:f?]VbR&kI+o%$.Q`*0jYC<Ql&i##UFXVKCIN7XVk-$7?/>>i%uCCC@cg\K=SEU
+m.&sSfOtSZl3QI$@k2(.KqY^\T6QBLUHZ<c_`NJ<FWGi^F1T'=g-,!'AKN$Q&!cjjbE5A%l_I]Q
+\Z,[,Q)"j`V;YD;c$AJSCA>N)piUu&7KkW="t+CcJi6&MK]<!^-oNBL:5fsE2Y+(p@N2DWYtj$2
+D4<W"bQQ>W"iR!h][-dP4qI%1a@C1NU_3DQR`[iWMuNSHlYBPuD-ss.n*7rC^O>3J^>k)E\=!MY
+nJ71YMMB<IN3+Ff*jX:H<bJ@AAMSV2(6U,!Dk0oPDN`:8PB!NJ2jWb[6(K6"GrSc``u!d3*!d8o
+=!p&FK?KC9NFqs,P"*5hKd1'[3"hLqAOdes!tN%0M9X;M0ahh"Z_nPY_O&rl>c5-A)gB;8G#(F4
+cmU^d]u]*L61a"ja;t9I_tU4c:@m3*WuF>FeWa+$Paba9T?g.C!g'TZObCpP!t(%`gFXBE-Khk!
+55D%g6RHO,22cUf-)jC4eI%:@,<%#$J.YaqF;8@jFZF-.rlG0MLG_[U`V$?tM7''LfcX(Y/$c&\
+$F<$Y%4Z1qO)2$*HZ\YeoYp=KibN`.Gk<R-#O1J;,+kuGiij!n)+8I`4q%E*qa']1$Y++*G\EDr
+^Qn'ENbj8^a]b>Z"CHl#92]mfTXL&'2A8]T!*364AogFa'SrSDC^j^^,bX<q>BOS"%Bn/qeXcoh
+oObTC>FTKt+5,l!1f9bfRJF"!*$E!#fB^^hlonL#"5K`uEo8/&!M;h;GpnCe*(29Z<cjjElfHP'
+(V4VC"NSG41!Kd[)dk>,Ns#+:`X(Vbj'qVgJY@Oug>E.(40rfC]cCH]Wfm*<UFZY6k7b![.*]\(
+J<?o8j[0lls'%nY-UUX`)7SORqFmN>-D5@>Hm/OD).V8e5+2R8l$pAe]KRqu3\d1tOsQ3EJM84n
+V,ShnAp")(YZ>s)f/?Z6FXR%@"f8XR2U>1W^0*GoDSoLK^1\.I%C->+G/M;tg$CPcqt<l4h*/3?
+3+uFK`tgg6c?@-]ZUh7fVr&SsDjt8;\q8(0r+1E[:ec(TQ7@SP_o.USN75gt&.k9.b-jJ9VuM_?
+MM::eMpj<b*hpDIO<@8g?R!t]R%u'*ktGZZ=ppcIaL:8PR8PE5'Pju<5U)QW.V,Q,O?tC&_JH%(
+_f75nlQerfab9hf>%:o%[l9='XB>00=tfWRBJPT)5BcSrR*?iPWU2lkK5o8_SXC",dJ@s;%!r@!
+2**lY5mJ=-:/8::*%-jtZK/ZSWe6`O4.MWA^9[<53:r@&hbr#F1+?u!'fdD'8dies]IU(X0p*i!
+&K?n<5rf9dNa/TI@<ROiJ5iqX7&CV:j].rTBSt!@?!.u>=0S[rK54h9-_G^[StBBt041j9XAp%t
+P__u/>+h^lcC$;T[)t-U49mfR^F)"(q?*8;BAmX57:S$&#$8ofk2\QsV"2Rjc^?IF5;FuU666KB
+JDa$cF*qKCEH%2SaT4Qe*il]Voo/Dr\-mW2FYT>0!(mtEf`40LF@BcV6@HuWopD=m$:dXnJ5i,,
+)HIML^'cIsr[C.FK7`+7J5t*F%bT.4n\g"M_-\Mf"?lu*/,saXE]Uqa"t/Df5iMp(L#:6rP7)ek
+@[6C5he:J%&iASVd`O&Gq_C^.LRfmuajcIjcLB'HKCi"T8%s'm#a,ug1Y&&Z*Acq15Wr]#W(Y97
+W+=SorFqu$5p-dGbOR-IAL]:1E=*&?CkF0K(7%1i2LAUUBf&i,)4"o5QN28V"Ei6rc]ej)Zkc_E
+J`\-?2fj4c0I^f)Ug/bRTia:VP,nml[<A?/+'Y7;/[?-i]j-=*)sR]F@DuSUkb)r&S8-)2XpnHF
+Q:(2Q1M'>()3-8MbH_'-m[Yf;_1:5dX?4a`XglR`26%h%79s6\A].Arf;fF(-+'M?bWQ%\JMomA
+=Xs&jc<tAMP^*/7_Pn399`!^XUcV,rThE9\[#5\@p2XdUj21nOI>L'lCU,uZj7hq!PB8:rWAl1W
+_6Gh+_)QV[Lm7@I)Y,'oYH%Q!)bB`2qM+r!rX41m*k?/J2js=!9lu!rH4+Vbn"<DAqrC!#[oTn"
+RCn<.Dul@]=PrgXektGMaD`t#!%qk:+h+/a&TE1$csUY%%GJWecEYR04tS(&b2,OmW*T'2qUXsu
++'!XB^L?^rq)_P<[+?UYnX9HM_J*RXQ]4rY`Ge';h3puM>k"3;lqh"8VEp;0-.\krZj-18'<bWt
+=^hQac";f_T>iln(1/$d('D>4rP>I)Or+a+Xnb*;kA/ZX%Hhukhhn'3]i2-[HP`=b`0tG%h)P7[
+HflP@(V`1G*]OL("F^6cgK?JuS41o?U"_9pn*`I"aF0/VouhkD\/rri3`1O9_/;<K^Gr`&V-!kR
++AJ2$,=d2r^)*;fPk0,ZqdG?D4?4Yd6_Tt?A5ctB&qP<8B%#$6]!W=bb(7:jq$rFV&7h-h<p'Yi
+HNfouQ/b$.]KmjX+`8Pq%(2Wli-=#hTc%OV?tdl<Z-lr3XUsdnGMiBZ+@RHq!bpM9J%Ka<J8,qN
+k8CY<rW\1!PU]cmTMkg^TFj%dD@VKMQ/Z5R35AqO;=\1<=7.s8&\))pICf;Lr=s8Z]UO4ihs#Qe
+GLW\ugV@.c!<E@:#Lhj$>@+Y?5,D-W@Y#XlOHLe]''/Hae<5>TT32WSL'GB2@b%(m,Yt,;KDD/U
+Zd+hEOR8)5MLBN(YOli;8*K:9@a)d.SKucP>,>9bdQn]`$E#^_LuLBhai[Rm`"s-:3t]<#24Pan
+%#hU=88?Zeh#\4$1BCNXOuU(SrjWL2nBQ1`NBsP"KW3"LC7L:TTUckW:3]U]0<>eo*hrLbdp'=[
+F>Dlj/<=6rnmr\2?A(=<(Poa]GM4T)4eO.#/"D)QoL?i]=AIZ$T.ln9WGBG(b(=u94P:mgN0g&3
+E%"AI.R.#HN`SC:qM?kc)*/ZTq3L/<_ZautFN>@T8kNYb6m_)4V+.GH<t9,4m-;gF>\9BeEK>D^
+1Xd^j)WOQ0;<S;_>8"Nb,A_IB\4@G:hZObj#*gBeb8I!g,<$6069U,0He=-CEmGF?4q(DSnj(3g
+JjP;nAe/WC?T!"#1E7"mmrR\9#<D[\r4sej.t8<c[*c)jC>#6Rc:9Ft16uBP/MTDkN4!U_#8p>U
+HPtjfO#'l[,lgf..V8[2II3*7$,Aie&.\peHA4Q/^=Tk(X9(I=p:[a"NR[@2+)Iqfm,$Xu`oW/?
+_)62Eilqr_##`?@E.I[S<"+i74Uq`UU_mQ,1l-3=0GK0A6%uNlV(p!tg4@f$hU#Y#ijh?G]PE/]
+(l2rE*Y%eU4SI)p-J;Bte`MCUX'VP-:WD?jFG<3Fb[`Wkr$<MMs18R0h(-KJ"n1:E`l>liHSp5A
+"*quT+e"C&,**V_$VcAW\T$Mu?`M=_GkL1[#%5GKZSkC@V^fpN/PJl!Zk"\g6'enD<:N,_nuZ[J
+G;1YO`Y`ntY)*7]`WlG^hu-:3!K@kfB@.F#'"nYBhf&Ud#J"d\>kUP_-X3bFK6mHb?GhK>j6(nC
+5TJjnI)2?+/&$XPkjeIm5Oi$ioNsSI6LfL@m/hY&0Z"Z7[CMj([E3Zioj!'RSYoQR%[R6sZ)4t?
+:1?gFj2YlCP_J(o7^!,'aH,%6dTf5D=(2-"rD.k*;""l`(>fDuRgj7Y1mXlnmIbi[r=euIkV8Vl
+hfcBl/Eit(qk?juQ\TU9bIddcWJu=HWI9>.\/oT'H2D,Gi/Y#Y5<]uS3_B-O(QMZQNYX<)kQkt&
+$&]BPEQ0QjNP'_."XdV=<S?6RhoXOl'cY63lnH;0[u\*`8BCYeZetTJ:ZIXYKTV/e9Bf70IXUn#
+/[)?][Ir6DGAga`45VoemH[O*mf'LQF9jt,X=D?48$iB#Mha[9%F5BTI71]8]Q0uPIhoDCl2jnE
+.Ha5C&5[&*^!Ueh2J<0Z.aoHV)NF_8.H)&j[f5*^]D#qZ%!RSW37\;#3oZ^iLj'4)"*mdb+1_'g
+Tg!fc:e!!Cb4=(3JBB1UhM^[UHfAqpd<"4dlF03+d0(L_rI:&=Glt:+.3<FWo\eNkN]Rfb2>ZE`
+FFF.X-VT2gQK")!*UZsIa5i"-(uB?"m1t),UhK+YeH,Sf(cDTF3L8_ib[J^P)Dqtal5rg-^A&EY
+rT_ZF(^l>V?_c,n%<hHk">[ME-)UBqni_6b1CI7.$u?BaON;>R[7P;u^Ro.$<0L[YB?8#+r4r$Y
+24M$2G=[#M-3+`k12Uo#N`2>+@UW^fctq_.2eF$eQ5q]LGit:Jb^BlR3p$>G^L#,F&`1NgDhp6_
+BO#C&:hT(Ab9_;@JNhUoIHSV\Ui7oh/.R1ca)'3Y0G)Y49AaQG$#k.Y-6+%<pE8LM8IGFL#9W\(
+,rfRoh%(UU%\J7K`b5"=9-][Df2V)[/;2&X1jU&[:%fBiPI<\lOG.-7$eBTb[=IToYE#U4O9l0I
+eQ[TJ4h:K>pI?mgJ#)+E.Bs+Wr+)DPe6hQ*XjGrcjGSZ6kUOIphn7`3;NT?T^.2VS*pNV0#%oKD
+?A)89W#sY-QWbD-ZQ(qj*]WEUmGgqh;KIl>oJmW[X-HoAn/LOuG[rDO]feoGis#-HZ6q\l_R<?j
+r`n^QeEmt22__`X!tc*28IYR.hn/ILg`HU4^Wq7?q\,"9\dY4/dIZik]6`+GA>#jo*dUY[+k*7:
+(2=>K!SlS%l1Hh=_jJXd:faADp,80SbeQ?:Q,\g^iullFb7tpq';4X461;fgfV#kTk;hsU3#.'q
+_18o<!m)S!<clRbHAiN*rn+aX*]\W=!Q-nPceD[(bF9h9kjjFTFS!>qq+,:IFenu8p(!i5a/;cb
+9lrL.+(X:M,5G'Vq09sAeHb+[Jp:UR2:`UqARMAd7S"!`mnMG$Itq4[\21kEA@@_iW^,%[f.#po
+-ZeL@A.33T"Z+f[a]0`6)E+hGi@sI:)c=0.b5E:41G9+ANT-6k2mE=%6\u8(69(,$6`S"NlnbKI
+`/nc_lSV-@&#XN/r=("d@?m)g7J+s#i1N"?^#NDCinu<I1_jpO_-PP"$/O:igtA+J*5r_Vd0U-,
+d4GYFG5atWp95BG2>qHSi'0Bk"u0lT%pEUHQ\'7X!OjFj\Pe!3LHbS/$CRhh$DcN-okBEY'tX*2
+Hf:.?Qs^m!9DdI)beF_:i*51'_&!7qU"+]:&;4X%U4[Xt<rcTB*XDID<qP`rO$8nQ"^D)kWnTU]
+/m:FDhbr\(?g(k/hnO61HfK4L(HBn<D-Xi)htt1B%tI(c<Y$&[%@T+W92W%L>_=K)-/C-AgU:r^
+%kZgl,c*W60[AOA-%Z7uG2&_1_GUOK;J6MPrUk"L=DQ/5QHYdc2,C0:3sOr-38e7s.CH_3;JH92
+S9iqD?V_TZljT6Ck(,qh6uuP,Y.1F+ReLqF]6F7u^Z_1?4W1acq`)G7a)MkY,MYcGqtnp8VM:_X
+WBUT)@3Oh2,oZZ,?tOL?:Cs-<!og0>](DkgC;$U"=5HuRf'-rhO&gE)l;g^!*^OuG/78DUK3;Y7
+M##OW-3SNTodXfE?cNfj`1k+^qjh+$5-..=K-\!$GW8QcR=TdL:n--eqtftI4GY$0<2sX`DC[Wu
+S%Fu&;r!Mr@\n_Hf5U.o]=oFH4YoB;c=g8K/1QW!2ou=eDKeZqI:AXAR10X&Y5!?!F)A*A\@\0f
+dL#.UM+Q7N<YbY!W^9]14.Fb?"/8%aIS.%..5a`_#<%3fdU\PDG=\80-t.G5E6f=%3:?)k%G'#+
+mLIEOE#%/el<2Yol1W]u`m.3j_$SNR\CSa]];mjkb3+JOm7F^"9nnO'Xd7jfe5C`%:q'4HmL9P^
+$?8\$@lTu:S<,i3FJCSiOKs'7HPpXUN#Y$lmZ4$-lda?)1-3G>.]P4S2Wt*P9gEbj3!U5'*>aKO
+gJ@U7d5Dhq*A(g%Bt/YG+eWUkIgL7\EAa`?g/<'-"n,FXBtY6Xn!sbfZSF@P\po=/+b;;o.uJBJ
+Q'@T+[,_,d39J%Wo=<?JNoSY+_,Ui&?h==]SL@=s7lu8,,AhDb,8RTtT,n"tU$LXHqtGOE>#97L
+r/adT;eZ8DWN3?FhqPYLiUX57YOV@':0n)>K6:1t2MN:-ppT*Rn/aPrh9jd0=`jaMTcj6/qpY7,
+B'fodkn&Vf3oAD+$;bZ3g:,m&145"0FQ_6g]6j(o@5A#Pfo5BYk4EOCaB$E6bWE@!]rA92U8*;F
+QS:c"cb19`oY'C,MM>/>X=EXWAe"BZ#hRcm^U3gj?p+G]*;;s8)>oT1hIS\N/lB%\TAs7<>.A$2
+OQF:NE$"c$k4%$Z>:9:&>78Kh$2<le_;kM#DT#l:gdRnk:e9J+*PFOZJ+T$Yq`?E838JS<c[CHt
+*q*D@h\-tB[;f\IkCoKd]5H?IB0O4\319T1DF^/T'Wn_\Gaj7RGGMJYQ?dm<@AH]d(-dCLm2fp!
+3p4f`_i&UT)Rj\-<$28H7JTHlV,F]0kAjap0]Hp>#PYtmq8I^Y$TB"h!VaAMd6Ef?7_Ttk^'qXY
+6F*?'"];!W+HSqVY87,oF0,5T3M$q*kbO<ukQ?@hFeJWsX^bZ*h!0]AZ'+RKDoVOn$snX9B)hd2
+s6!63AnRFhAUdig<l<,Qre.)'n<Tk+B3H4c:*_acZ`f$P?lKOad(<&VeUqUT:oYuq/3U*.;B!L8
+3C"(MKmCht[4'%Q=c3p8Q0!]<i,&J6nkqi;g8h_W>m<nd[7m3iGOQ0ip.t$6JltC#oH)<*/i2OC
+^%:OPcee2*bPuFUrU=0eKgl:-SX(YH"!VZV:b.G=74PLh*+Q\`P_&C7I4;K<`d%0ZKaIROq8IC4
+SHH1h$??ZX]F#B'"],8_2QnajZ'u'2]/,rU*(-WV4BYk[>/WIP`WI<5gc?#0%UqBcXiSOP2:pD;
+kuFQX,Ms#X`;K[b!=rCap],X(N4>tSWM]=A6q;+;`nS=pGe:odoV=UW;CCVa7NQDf_$i"RIdRF$
++Vh&B+HK-p9lI2bCQI':mR"B]E'3mt5dtFJ=V'2BB626pnPqBibU,.<1n2bN_bgq7J#=/?k2D]*
+$0$F77VMmj~>
+endstream
+endobj
+9 0 obj
+<</Type/FontDescriptor/FontName/DWNZRI+Times-Bold/FontBBox[-24 -19 476 691]/Flags 65568
+/Ascent 691
+/CapHeight 691
+/Descent -19
+/ItalicAngle 0
+/StemV 71
+/MissingWidth 500
+/CharSet(/colon/eight/four/one/seven/slash/two/zero)/FontFile3 84 0 R>>
+endobj
+84 0 obj
+<</Filter[/ASCII85Decode
+/FlateDecode]
+/Subtype/Type1C/Length 1105>>stream
+Gar?,@8'm:'SaBWdb?ifOO7?H"kjnu7p1U_)g$1tF0=8:AhZQ=gK:/Xl_WCap(gi)SVkA)AD-.%
+MP>*1=')g_N7f@DA'kE&/t#?j9oN<KNuC^=7H6&I=$KBkO;NKBkN"epHd6\q_k7VO@Mm,3+iVB1
+rGFV6?>[058qp;Z8@:@D-Ac3<Xr8=*7otS->&5b#nCP5Y34BsSg^g1A8BW^O=0k(NOVs6)]d^dH
+W;U\+_m/l!a5ui9KM^gg7+`_2V+=kDXGS/U.OS\74Ok_PeELXG3\EgpR7(sk#_p6+G]iE<?rZJ+
+p.8+1OcY>$]<=tK4.WO#[63.m`Bo2KTj<Z^j$Kg5&Io'u@TXP-rBEOQESI!9GJj-o*=.q*or%q[
+&<@l#AlOW<WF%n:WlUiY`l>ra#u-EA#WZ/p;e`)l<Z"pe2Y/PeNrIk6qjB#\VakbrF,n@o)lg]U
+KsBVYr[GKE&G#L:%+aH.NeW"V[9s4<*n3IlppYd+ns8#\4ZmUDjaAj<)LqJV']tFQYCkX<)*Kt)
+Ikg\sdR%_$.NN0D`J[CSfiG=miG00'?_NF]?iTuTpt46P95dM<p(ld;-O0P#'jcqa_^Fha\0Ne>
+p!0lkho9k#E_F0)!AeEjQ@X=[dZOWen4>P+Hf67ik,<oda5E*K^4$"s^17.`k8fG?*ZL.3>/K6,
+8`%GJfVohAEhDBQnT=W@aI>QW1/?dn\tcJ#Lpo<62cD)j+q8<X'IX2<E@DWqJ;r,Fbsp/(`!PHd
+g"W<@gIX?NVZ#6ZDDb?5]M(9K:!6ps9j`L<V4e-maFX\il..iT*)n_i^Y$W21p@!ATUTK<horgH
+J2oU7;ZB?qpZpQ!Y7rp#Y/imXeGp+$YYm7o2QGDXE0kK=VagLfipq.7%WJiuR_]-XjmU%\dk`q9
+gD86spTDejGk7W*`tt_+<kA#hCb[O%?*bQd[rGgRNSj_4f)f:>$Mf'XnOg:BIk#Rb@&]n@&'XHX
+++AfgnjM\<CLhm.@:F!F\toga*!%_BJsV$/i8hMgE;-Vb:LS/'g*['o"2>Sb.d7Sbm`p4+>[_56
+ok+-QZ=/Fi'f`;!e+\E$R%?2S6+C;R7Hbi2@tDD~>
+endstream
+endobj
+13 0 obj
+<</Type/FontDescriptor/FontName/AXQIQH+Times-Roman/FontBBox[-9 -218 775 727]/Flags 32
+/Ascent 727
+/CapHeight 674
+/Descent -218
+/ItalicAngle 0
+/StemV 116
+/MissingWidth 500
+/XHeight 460
+/CharSet(/A/a/c/d/dollar/e/four/g/hyphen/i/l/m/n/nine/o/one/p/period/r/s/slash/t/w/zero)/FontFile3 85 0 R>>
+endobj
+85 0 obj
+<</Filter[/ASCII85Decode
+/FlateDecode]
+/Subtype/Type1C/Length 3414>>stream
+Gar>GGuR^T(4S%ahrdH\kpo/;OucNWl\8H@9Pr=rF[.IX#[0J"&.D-4"!N3u_YQQK/0olplsWBf
+'J("i&\#2dj&UMap.S\kSXFX^1Z.5?cCB1ES2p2]SFb#f0CRcl]D)<=Hg`U-b%hL+iG]Qcb>P/S
+X$`/OnI!V2<Ql'co@b0r.CYBeAfG?Co9N:j:#(G9!>d?WC3a[1^CS'K12_OI)])@V%O]<P&ZA[j
+VTY-c1F4Oq64^f<Eoj>$]ic-_&0O!%qd57lLGVAaUl[-?+0q_`V(,KFaF$braEl%kZ=B%CH*/VW
+6P?#Q+AM?Q()\cl*gc5Va^lre10_%.n1Db.J,aYlg"XOFZIGXP)3S>^Qg@cX8:i.]d\JF>I/<kI
+.#RTMY#).H1G[MN`tG1>13r0M2/E0BD$]no74k8uU^g3E<#??F78Qk2DlFc,:21TQL\`%!O4mBT
+;_M"+W0\qTMP_.f4A*[M7sRs0l9=B4SBa-$EuO3=Mei!3f?;*:aHQ2tq5sRuJ-iT6F5RRJ,LjVf
+\So``ABMPt'9NYmNA.QJ34"aloLC6\/bq#u@QsH`o1?fWJfqA3+>9TsR"M0'6&aOV[[ZPt*9(s#
+Q\V.0Od1*T3=Y5+-s]ac=TNTJ"h_ps2Au\a`fR]UhFnf-15df)*mNU`1Y`1H)-q$`<Rr>W[VDSV
+U_9=s]e6<!C2pNm6re$iBF*SunF9V]]cY(IG55H!OTH5eY;tZ`8oTCGRK>R>J2e?m++&#)&\06%
+\*+3-XGY;gl,3+GCd`oF=mtKpItR(%iF3H68!@$Q<tZ*JnoQnc_*63FN^_TEm5+<j3+#8'9Wo^7
+$1FYFgCb.RLU4tBah1jA2LK]Al>7,k78b'^9t<76d)UB<p:3,7Z_$q!9!$67g0/2[<WiZOL;W!e
+aT*@2lOO[s_/]u;!J6B$^p_D`3ckhjF^Qo"h(X^/T(a9!_Je@$49,)!=DW:OXS;fEY)::qc4AM4
+n_;g^Sr5trG:0g38@[(%!Y:%ron^9N':-E-?(CdJ>Vi^RXuBK6m0Il;o4#\W"OJ<e0rTWa`TRH:
+9c>CJJiF/1SNbY*CFq9jM&LJY`=<%*SW3(:CmQ\ZOgu]?r#I2bMTe]85ENdG,rDtE\<o.Vr)TFc
+Y2Xt9^4KA[#6(,F`NSh(r:9DF@mrg8&f)]ZQ+dG0)D,)peS.[bKLQ-"oc8B!,JKBtW,BgEEae<S
+AX#mVB[%-#G8.LI:Vf0Qn)0[PeQ$G"Jm^+/05k@bBe4FOPr:4>E;e4eEuFou%Z(L7?.kn<5[D7c
+?MF4oO)04`>BR,XP$-/pj1lsOhi+bs0t&cu[,C(e%/I==;mFDG=BoMr8AjIsnk,V6Z//T!/6RqS
+.a(QJ:iQ"gq)s4+:YbT\anEi*;1;eo]#KhcKSeEcCLVYu#Tj#eB00J`@^`d+bRG=j$O2PJ,LR]O
+EJ@f-NhlPh_O6j4KTJQW>3jCFc-T$k[GXHP?13Y)kEp=*F8\[hh[3UqC+Hb:Rh3![/HaP)f,cMW
+/%6@!U[Soebg2kqdFFs0A9$6`fu#cFI7s5*M:KSQ88(IMeqRVA('!XP1hs%1Yp"WVF20IEHAV0-
+pUU&6?Lakq@#We=)6M:$P\:ZQ1tJ92j+@>+Q?6osZ\IJ.%j8B.HZX5(9AS1UibGTuW2VJ/bH2Kp
+A;4B<XhtfXM?qUY5h>;N'ZEYMe2eI>JV'iY1U1$,N3l8b&IBE^CRVP!Q41"n&"[<+AF3GTP*Zkp
+(M)`oL"Q_Y.gJh-Wr\Y1)8Zd-5Ym,Y(g]/!irPKLLAgA(SOj]m#l4ch_VhU6DLX\-cmRPc[948V
+;f2sUG.'<<?/0^K;fn6bl)=ARXE$8R!m.KMXMN\siJ-24;-/*c=3i_qN9qm*@-5![>u.\NL5UO8
+d.kjW?3A9N-q@hS-5G'jMj`mIo>YI,%7(n@*jAVp+q&uMXG3KZiX_i5Wk)[G'!R,[a>3>/]a]53
+`KRI2"6(GR3F9d?/26:/e`d8AJt'Y"iKl6:ipQd:'8IgOT!E6C73;_$*+frB9ZLt/;Zrdj'\BIS
+ausJ*0>@SY'n4Q.L@4]Je=e*=#LO]:3*.RkHrRKU"[F9CZOqh&pSKZ&.O#Dn._>',^kjT*$>NX'
+2L)5HMCJI`$i>,*PZ'GWNr'U;HdLm:1+A/(IHgp-7Tu#0S7V4hfi0hC#d2i%kTAS+r@CC-PFJU%
+/kJq$X-"<3gC$L#3tA8g:a1jG)#N[V_p6Y$dE17b5'.EC4Zp=37-IghaJs>4C-\s$_(LYR_H^M9
+c/jtC>''fT4+"U9h9J<.%X",Fl1uMW^0")')]oej+S]f'IT"8<"N#L5V#*iTfeIeJ>_AZse*b'B
+hG-d[K;^6PIKUt40LbPp&*#m&m[7!s43_sZ](!S/Hli:Z/j$(__h"D=]/H1WA^AD'jf#O1@J__T
+8deIg6,1UL`skeJ\#.6$mQc_^J;M.rZmmk1WGKh$GIOu']//1Uia:%mJ"#=ScZ88RIU/e`P!/.q
+RuZ=6B`LTcnq0S;.(p8s<u9N9"iu'%8uiG:UkW.nU%`@ZS(c:^cBB+cm('XNXS+VI(6A02>4Z4A
+Ut10l%BEkkd[_Md8m@'G5s,ELQ,R>nGI3oY*(99iC[t4T8HgM9Y7L;:T'6BOQ.e]L(#g.YF1T,#
+*5SU$eRgO-@^W;9.)a1f.@hT`.^^b@$(V^gUB&V5\GSW`<*DhG.!J;7'nKhV;R\Y'hIC+I.Yj9@
+XcQi\3:\!N'X$Ac@KeS*='PjafVE_2nB6<T;q'4VMN7>shTh/LhR(R-%lZQ$XGF7ocYfWSn4E%4
+GO]S?ffml-cMDX'g7MlqF"TAW`c)Wq8PBU#P7iDe>XURMAFA-T'="0?>XG'Udu?_IQS+fH&E/<S
+a8=oKM6Ej/NLh"tB1PXjZ'((cA,h)nE:Ok.4q[fbcd15#Ag>KjE:Ff(!86DYdfFei?$19iPI[sP
+L1#p>HX-L.&3q[5R<aM?6=!a,LZWJ%fM\,M6Q\\X#N1/RiA[sHlK3`>*e*Uo=7DH:j#m/I-7"mQ
+5(=0]$c3#,4WsOi!IjJb51t"J-:U0WiocoJ("dJonT&\s^>ht$dFcW^U%u^HchFX$70kPt3++>0
+95$)1rGo2sGi/<+VCmfcN1:\)-(>0A6<9pK4H3ufUb47K(Fh3Ro90a@)KQG8T5(mkdOB'UFjtOY
+q"<9/ZGfc6jP?F50`MM5o0-)B@kNkRj.)TTn<tmF"<3V[.;:Q&qA>)WLDuD3'>'O3g=sXj)$Huj
+,L:!"%;O"cr6'qlqO'+K@Gkp?fA:9blL&jTO._Q]5g`DZ.t'hI+q&<T>QJFFA+>QI6F(eE^%nD6
+"-'&`!s:LJi?7rIIN$Y/6Mo-dUr<#8cs,mH,$d1``UB5hG^b]b_1K^%$PlXi^B'&F:Bg~>
+endstream
+endobj
+11 0 obj
+<</Type/FontDescriptor/FontName/FXAAYL+Helvetica-Bold/FontBBox[0 -24 528 724]/Flags 65568
+/Ascent 724
+/CapHeight 724
+/Descent -24
+/ItalicAngle 0
+/StemV 79
+/MissingWidth 500
+/CharSet(/eight/five/four/nine/one/seven/six/slash/three/two/zero)/FontFile3 86 0 R>>
+endobj
+86 0 obj
+<</Filter[/ASCII85Decode
+/FlateDecode]
+/Subtype/Type1C/Length 1552>>stream
+Gaqc4HV@@>(dFA8b8lmX@2H.5HSn"&$3M!9!cn\M.M,sCO$OkpPWLOa87`RSgjDfYE@t0dVE=nc
+nsG&e'Nc+U\n&OPpqglFgu=hb9pX_mGKF:8DN0S-5NePakPN!bH[LT8hHl#4./uuA:i:FFKr1ff
+G/</El,6Cj%.b+LA[kDr0jZCA7p36\rNJVC(#H'$Epj",;o-NRi1,a:'X_fXd8YIlEsln:G&S&(
+X7@HW\iHr=Z$O*T1HYWKiR4f=]PTG`;`^.I"aas?FgE<L99lddJM6)#K!VhoN&+Tf<f<klX\#a7
+imN+'0.jSuEtPC6>[0rrCm;<FkO9e[X_$:&e)iD<Mt=aa?N_N/l)g?*\@M4jk9hP?&XnYX-iaFF
+2\Ct":bW5B;ihnH,TVt*$:VAd/2`,B7c!Qkp?M8gQ'KGYMu/ac;;"3cA\<O>k'mO0<>s*AJm9`7
+3^=i0!BJ[7**@`T6-FL-]+?XMA6`PLZRlBFE(j6=EF7l%Ae&$8nW3HC8)O&(6Of)1KO>)>rd[4G
+\sD3DL`%E2m_Wi0f+rd3E]=6K`lYiU5-f)cPrK+j&[p:mFB,d<)So5=ki'/(D9(K"brqGV!+6,b
+:=$g>`Cb<J'"IK)d6:bJ()r)C1XSCX$rDdUTW-BO$MdSs=9U1?%+9:$`eNZ#_#Iip&:VbeGglg.
+8S5rf,I@.&>mERCJ@^U:\U39*7@,_\AW&f_LeL/MqP((I,a]1el.>8(i!")\%H)g?LS4jRZes]@
+rQT]'rh/)+o9a>]6-`AtldfAO$)8#mBoh:^#%g-plo3:Mg4kbcCBK(^iCn%e'fGd3*?jAL1@0:?
+)LLuZ)fZY""+kn1\.7(3WiPCJX?V?*o:>f:1p\c2]7YRS*l<K%i.?_c4g_GO`(Zo'ajGre3Uqf@
+&hEbjHeX=g#7O82Bul&#YAAi'OSo>49(_`)<fX@r-iE51$*>0Kk[RtBf"3YX_n@ZddBIL[%c?g4
+4tY1/T9@;l&jR\8TC_t@7)=i75=t@V`B+4/[L"/=0^q[KVu\Q=/r`:IBL%(s1@[0*TA;Z7ZcUlu
+FEUgagNY>G[2@@dknV=-Ya?i"/aQY`B'F0UIAutjV_9/2_@iFOj[r07^-R*b"QRh_CG,@kcJsB/
+m&V^F,0=Tn9(0?UL&#MiQQ$-!Id.l`U4"JHGelc4KSRl[U4O2g0n2AqmF`GUDi*=?FAdIs"rt,1
+*CpA:o*TEt+-7`CfI5FoJ3V]%:YI*VT8?ES&DLH2jNs%S[anV@*ah71]1[`ILi*7`c8]ONb\I:#
+oEIK<5u#j=d1?Tr@uipX$%.Kro0`@<L8\N2HdQ\9PA@D`A/e:9)fiPCB`lC>+fEt$GQ+<F6U=1r
+Z2a[F^4E=+#%\F;&7D/;)VL=;F=tqH#7:&O$'b4/4RD@HfmTjiD[\HDX15WQYi*fiT)$h'R5TBr
+M'+U(SHT%"VlGe:C29gZ=#IB>,h/9N]Rb"gh5>NHY%4a/Y"_SEj=O_FGkUR=So68sQ&[2r])beJ
+2E&t@lO-W=JT$f?!E6$6IL,l[F>d<X~>
+endstream
+endobj
+87 0 obj
+<</Type/Metadata
+/Subtype/XML/Length 1414>>stream
+<?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<?adobe-xap-filters esc="CRLF"?>
+<x:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='XMP toolkit 2.9.1-13, framework 1.6'>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:iX='http://ns.adobe.com/iX/1.0/'>
+<rdf:Description rdf:about='uuid:5ac169be-4f8e-11f3-0000-6c520ddbf4c3' xmlns:pdf='http://ns.adobe.com/pdf/1.3/' pdf:Producer='GPL Ghostscript 9.07'/>
+<rdf:Description rdf:about='uuid:5ac169be-4f8e-11f3-0000-6c520ddbf4c3' xmlns:xmp='http://ns.adobe.com/xap/1.0/'><xmp:ModifyDate>2018-02-21T17:43:39-08:00</xmp:ModifyDate>
+<xmp:CreateDate>2018-02-21T17:43:39-08:00</xmp:CreateDate>
+<xmp:CreatorTool>GNU Enscript 1.6.6</xmp:CreatorTool></rdf:Description>
+<rdf:Description rdf:about='uuid:5ac169be-4f8e-11f3-0000-6c520ddbf4c3' xmlns:xapMM='http://ns.adobe.com/xap/1.0/mm/' xapMM:DocumentID='uuid:5ac169be-4f8e-11f3-0000-6c520ddbf4c3'/>
+<rdf:Description rdf:about='uuid:5ac169be-4f8e-11f3-0000-6c520ddbf4c3' xmlns:dc='http://purl.org/dc/elements/1.1/' dc:format='application/pdf'><dc:title><rdf:Alt><rdf:li xml:lang='x-default'>c.ps</rdf:li></rdf:Alt></dc:title><dc:creator><rdf:Seq><rdf:li>Wesley Mackey</rdf:li></rdf:Seq></dc:creator></rdf:Description>
+</rdf:RDF>
+</x:xmpmeta>
+                                                                        
+                                                                        
+<?xpacket end='w'?>
+endstream
+endobj
+2 0 obj
+<</Producer(GPL Ghostscript 9.07)
+/CreationDate(D:20180221174339-08'00')
+/ModDate(D:20180221174339-08'00')
+/Title(c.ps)
+/Author(Wesley Mackey)
+/Creator(GNU Enscript 1.6.6)>>endobj
+xref
+0 88
+0000000000 65535 f 
+0000071445 00000 n 
+0000091830 00000 n 
+0000071294 00000 n 
+0000069154 00000 n 
+0000000009 00000 n 
+0000005016 00000 n 
+0000071510 00000 n 
+0000073345 00000 n 
+0000083121 00000 n 
+0000073911 00000 n 
+0000088410 00000 n 
+0000073538 00000 n 
+0000084586 00000 n 
+0000072853 00000 n 
+0000074114 00000 n 
+0000071551 00000 n 
+0000071581 00000 n 
+0000069305 00000 n 
+0000005036 00000 n 
+0000010082 00000 n 
+0000071644 00000 n 
+0000071674 00000 n 
+0000069458 00000 n 
+0000010103 00000 n 
+0000015180 00000 n 
+0000071737 00000 n 
+0000071767 00000 n 
+0000069611 00000 n 
+0000015201 00000 n 
+0000020278 00000 n 
+0000071830 00000 n 
+0000071860 00000 n 
+0000069764 00000 n 
+0000020299 00000 n 
+0000025376 00000 n 
+0000071923 00000 n 
+0000071953 00000 n 
+0000069917 00000 n 
+0000025397 00000 n 
+0000030474 00000 n 
+0000072016 00000 n 
+0000072046 00000 n 
+0000070070 00000 n 
+0000030495 00000 n 
+0000035572 00000 n 
+0000072109 00000 n 
+0000072139 00000 n 
+0000070223 00000 n 
+0000035593 00000 n 
+0000040670 00000 n 
+0000072202 00000 n 
+0000072232 00000 n 
+0000070376 00000 n 
+0000040691 00000 n 
+0000045768 00000 n 
+0000072295 00000 n 
+0000072325 00000 n 
+0000070529 00000 n 
+0000045789 00000 n 
+0000050868 00000 n 
+0000072388 00000 n 
+0000072418 00000 n 
+0000070682 00000 n 
+0000050889 00000 n 
+0000055968 00000 n 
+0000072481 00000 n 
+0000072511 00000 n 
+0000070835 00000 n 
+0000055989 00000 n 
+0000061068 00000 n 
+0000072574 00000 n 
+0000072604 00000 n 
+0000070988 00000 n 
+0000061089 00000 n 
+0000066168 00000 n 
+0000072667 00000 n 
+0000072697 00000 n 
+0000071141 00000 n 
+0000066189 00000 n 
+0000069133 00000 n 
+0000072760 00000 n 
+0000072790 00000 n 
+0000074647 00000 n 
+0000083379 00000 n 
+0000084894 00000 n 
+0000088685 00000 n 
+0000090339 00000 n 
+trailer
+<< /Size 88 /Root 1 0 R /Info 2 0 R
+/ID [<386E6FE27CB10D94F81CFCA2C669972E><386E6FE27CB10D94F81CFCA2C669972E>]
+>>
+startxref
+92018
+%%EOF
